@@ -1,6 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Qft-EFtoEeyOjObmBw0n-A" name="Cafe Azula Software Design and Anaysis">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Qft-EFtoEeyOjObmBw0n-A" name="Cafe Azula Software Design and Anaysis">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_QwwDsFtoEeyOjObmBw0n-A">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_9w-xkFtoEey4eM0_v66iQw" name="Book Seats">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_peWwcFtpEey4eM0_v66iQw" name="Login">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_efaZ0FttEey4eM0_v66iQw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tTeA0FtpEey4eM0_v66iQw" name="Book Seats">
+      <extend xmi:type="uml:Extend" xmi:id="_efZLsFttEey4eM0_v66iQw" extendedCase="_peWwcFtpEey4eM0_v66iQw" extensionLocation="_efaZ0FttEey4eM0_v66iQw"/>
+      <include xmi:type="uml:Include" xmi:id="_DdE04FttEey4eM0_v66iQw" addition="_KfhrUFtqEey4eM0_v66iQw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KfhrUFtqEey4eM0_v66iQw" name="Select Time and Amount of Seats">
+      <include xmi:type="uml:Include" xmi:id="_EwIYMFttEey4eM0_v66iQw" addition="_ZbKHsFtrEey4eM0_v66iQw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZbKHsFtrEey4eM0_v66iQw" name="Check avaialability">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_PZrw0FttEey4eM0_v66iQw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QUucwFttEey4eM0_v66iQw" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_g9QAIFtrEey4eM0_v66iQw" name="Seats unavailable">
+      <extend xmi:type="uml:Extend" xmi:id="_PZqisFttEey4eM0_v66iQw" extendedCase="_ZbKHsFtrEey4eM0_v66iQw" extensionLocation="_PZrw0FttEey4eM0_v66iQw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_jpRhgFtrEey4eM0_v66iQw" name="Select seats">
+      <extend xmi:type="uml:Extend" xmi:id="_QUt1sFttEey4eM0_v66iQw" extendedCase="_ZbKHsFtrEey4eM0_v66iQw" extensionLocation="_QUucwFttEey4eM0_v66iQw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_saOfIVt-Eey4eM0_v66iQw" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_6ZFxQFt_Eey4eM0_v66iQw" addition="_rZe-YFt_Eey4eM0_v66iQw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pNW6gFt-Eey4eM0_v66iQw" name="Auto select seats">
+      <extend xmi:type="uml:Extend" xmi:id="_saOfIFt-Eey4eM0_v66iQw" extendedCase="_jpRhgFtrEey4eM0_v66iQw" extensionLocation="_saOfIVt-Eey4eM0_v66iQw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rZe-YFt_Eey4eM0_v66iQw" name="Seats Booked"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="__k4YIFtoEey4eM0_v66iQw" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_CxsSYFtpEey4eM0_v66iQw" name="Database"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EpHHAFtpEey4eM0_v66iQw" name="Management System"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3CFT0FtsEey4eM0_v66iQw" name="Customer logs in" memberEnd="_3CJlQFtsEey4eM0_v66iQw _3CMBgFtsEey4eM0_v66iQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3CHwEFtsEey4eM0_v66iQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3CIXIFtsEey4eM0_v66iQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3CJlQFtsEey4eM0_v66iQw" name="customer" type="__k4YIFtoEey4eM0_v66iQw" association="_3CFT0FtsEey4eM0_v66iQw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3CMBgFtsEey4eM0_v66iQw" name="login" type="_peWwcFtpEey4eM0_v66iQw" association="_3CFT0FtsEey4eM0_v66iQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4yCOgFtsEey4eM0_v66iQw" name="Clicks Book seats button" memberEnd="_4yDcoltsEey4eM0_v66iQw _4yEDsFtsEey4eM0_v66iQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4yDcoFtsEey4eM0_v66iQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4yDcoVtsEey4eM0_v66iQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4yDcoltsEey4eM0_v66iQw" name="customer" type="__k4YIFtoEey4eM0_v66iQw" association="_4yCOgFtsEey4eM0_v66iQw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4yEDsFtsEey4eM0_v66iQw" name="book seats" type="_tTeA0FtpEey4eM0_v66iQw" association="_4yCOgFtsEey4eM0_v66iQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GKQM0FttEey4eM0_v66iQw" name="Database checks availability" memberEnd="_GKQz4lttEey4eM0_v66iQw _GKRa8FttEey4eM0_v66iQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GKQz4FttEey4eM0_v66iQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GKQz4VttEey4eM0_v66iQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GKQz4lttEey4eM0_v66iQw" name="check avaialability" type="_ZbKHsFtrEey4eM0_v66iQw" association="_GKQM0FttEey4eM0_v66iQw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GKRa8FttEey4eM0_v66iQw" name="database" type="_CxsSYFtpEey4eM0_v66iQw" association="_GKQM0FttEey4eM0_v66iQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YA76gFttEey4eM0_v66iQw" name="Customer selects time and seats" memberEnd="_YA9IoVttEey4eM0_v66iQw _YA9vsFttEey4eM0_v66iQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YA8hkFttEey4eM0_v66iQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YA9IoFttEey4eM0_v66iQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YA9IoVttEey4eM0_v66iQw" name="customer" type="__k4YIFtoEey4eM0_v66iQw" association="_YA76gFttEey4eM0_v66iQw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YA9vsFttEey4eM0_v66iQw" name="select time and amount of seats" type="_KfhrUFtqEey4eM0_v66iQw" association="_YA76gFttEey4eM0_v66iQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iNMTIFttEey4eM0_v66iQw" name="System shows unavailable message" memberEnd="_iNOIUFttEey4eM0_v66iQw _iNOIUVttEey4eM0_v66iQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iNNhQFttEey4eM0_v66iQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iNNhQVttEey4eM0_v66iQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iNOIUFttEey4eM0_v66iQw" name="seats unavailable" type="_g9QAIFtrEey4eM0_v66iQw" association="_iNMTIFttEey4eM0_v66iQw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iNOIUVttEey4eM0_v66iQw" name="management system" type="_EpHHAFtpEey4eM0_v66iQw" association="_iNMTIFttEey4eM0_v66iQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cihmoFt-Eey4eM0_v66iQw" name="Customer selects seat numbers" memberEnd="_ciqwklt-Eey4eM0_v66iQw _ciqwk1t-Eey4eM0_v66iQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ciqwkFt-Eey4eM0_v66iQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ciqwkVt-Eey4eM0_v66iQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ciqwklt-Eey4eM0_v66iQw" name="select seats" type="_jpRhgFtrEey4eM0_v66iQw" association="_cihmoFt-Eey4eM0_v66iQw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ciqwk1t-Eey4eM0_v66iQw" name="customer" type="__k4YIFtoEey4eM0_v66iQw" association="_cihmoFt-Eey4eM0_v66iQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_u-1J4Ft-Eey4eM0_v66iQw" name="System auto selects seats for customer" memberEnd="_u-1J41t-Eey4eM0_v66iQw _u-1J5Ft-Eey4eM0_v66iQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u-1J4Vt-Eey4eM0_v66iQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u-1J4lt-Eey4eM0_v66iQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u-1J41t-Eey4eM0_v66iQw" name="management system" type="_EpHHAFtpEey4eM0_v66iQw" association="_u-1J4Ft-Eey4eM0_v66iQw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u-1J5Ft-Eey4eM0_v66iQw" name="auto select seats" type="_pNW6gFt-Eey4eM0_v66iQw" association="_u-1J4Ft-Eey4eM0_v66iQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vb5D4Ft_Eey4eM0_v66iQw" name="Database adds booking information" memberEnd="_vb5D41t_Eey4eM0_v66iQw _vb5D5Ft_Eey4eM0_v66iQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vb5D4Vt_Eey4eM0_v66iQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vb5D4lt_Eey4eM0_v66iQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vb5D41t_Eey4eM0_v66iQw" name="seats booked" type="_rZe-YFt_Eey4eM0_v66iQw" association="_vb5D4Ft_Eey4eM0_v66iQw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vb5D5Ft_Eey4eM0_v66iQw" name="database" type="_CxsSYFtpEey4eM0_v66iQw" association="_vb5D4Ft_Eey4eM0_v66iQw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_IxUloFuBEey4eM0_v66iQw" name="Book Seats">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Pm9nwFuBEey4eM0_v66iQw" name=":Customer"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_R8_rAFuBEey4eM0_v66iQw" name=":System"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_S6gcIFuBEey4eM0_v66iQw" name=":Database"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IaLmEFuDEey4eM0_v66iQw" name="System verifies login" memberEnd="_IaNbQVuDEey4eM0_v66iQw _IaOCUFuDEey4eM0_v66iQw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IaM0MFuDEey4eM0_v66iQw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IaNbQFuDEey4eM0_v66iQw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IaNbQVuDEey4eM0_v66iQw" name="system shows unavailable message" type="_EpHHAFtpEey4eM0_v66iQw" association="_IaLmEFuDEey4eM0_v66iQw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IaOCUFuDEey4eM0_v66iQw" name="login" type="_peWwcFtpEey4eM0_v66iQw" association="_IaLmEFuDEey4eM0_v66iQw"/>
+  </packagedElement>
 </uml:Model>
