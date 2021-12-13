@@ -102,4 +102,80 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_IaNbQVuDEey4eM0_v66iQw" name="system shows unavailable message" type="_EpHHAFtpEey4eM0_v66iQw" association="_IaLmEFuDEey4eM0_v66iQw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_IaOCUFuDEey4eM0_v66iQw" name="login" type="_peWwcFtpEey4eM0_v66iQw" association="_IaLmEFuDEey4eM0_v66iQw"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GM2UUFxeEeyhU-IAtk1nSw" name="CreateCustomerAccount">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZtWfgFxeEeyhU-IAtk1nSw" name="Login Page (Home Page)">
+      <include xmi:type="uml:Include" xmi:id="_Ibz-4FxhEeyhU-IAtk1nSw" addition="_ialVYFxeEeyhU-IAtk1nSw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ialVYFxeEeyhU-IAtk1nSw" name="RegisterNewAccount">
+      <include xmi:type="uml:Include" xmi:id="_hARzMFxhEeyhU-IAtk1nSw" addition="_5mGZwFxeEeyhU-IAtk1nSw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5mGZwFxeEeyhU-IAtk1nSw" name="Enter the required fields">
+      <include xmi:type="uml:Include" xmi:id="_l2MZQFxhEeyhU-IAtk1nSw" addition="_BX0poFxfEeyhU-IAtk1nSw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BX0poFxfEeyhU-IAtk1nSw" name="Username Unique ?">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_PYdygFxiEeyhU-IAtk1nSw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Qi1T4FxiEeyhU-IAtk1nSw" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Bk0uYFxgEeyhU-IAtk1nSw" name="Account added to database">
+      <extend xmi:type="uml:Extend" xmi:id="_PYckYFxiEeyhU-IAtk1nSw" extendedCase="_BX0poFxfEeyhU-IAtk1nSw" extensionLocation="_PYdygFxiEeyhU-IAtk1nSw"/>
+      <include xmi:type="uml:Include" xmi:id="_UailQFxiEeyhU-IAtk1nSw" addition="_KRlDIFxgEeyhU-IAtk1nSw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KRlDIFxgEeyhU-IAtk1nSw" name="Redirect to Login Page"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-myagFxgEeyhU-IAtk1nSw" name="Username Duplication Error Message Box">
+      <extend xmi:type="uml:Extend" xmi:id="_Qi0s0FxiEeyhU-IAtk1nSw" extendedCase="_BX0poFxfEeyhU-IAtk1nSw" extensionLocation="_Qi1T4FxiEeyhU-IAtk1nSw"/>
+      <include xmi:type="uml:Include" xmi:id="_VqB3MFxiEeyhU-IAtk1nSw" addition="_KRlDIFxgEeyhU-IAtk1nSw"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_IBI8cFxeEeyhU-IAtk1nSw" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JNurYFxeEeyhU-IAtk1nSw" name="Azula Database"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_LDodEFxeEeyhU-IAtk1nSw" name="Management System"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cl02kFxgEeyhU-IAtk1nSw" name="Enters Application" memberEnd="_cmCR8FxgEeyhU-IAtk1nSw _cmC5AFxgEeyhU-IAtk1nSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cmAcwFxgEeyhU-IAtk1nSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cmBD0FxgEeyhU-IAtk1nSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cmCR8FxgEeyhU-IAtk1nSw" name="login page (home page)" type="_ZtWfgFxeEeyhU-IAtk1nSw" association="_cl02kFxgEeyhU-IAtk1nSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cmC5AFxgEeyhU-IAtk1nSw" name="customer" type="_IBI8cFxeEeyhU-IAtk1nSw" association="_cl02kFxgEeyhU-IAtk1nSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jx1KQFxgEeyhU-IAtk1nSw" name="Clicks on Register New Account" memberEnd="_jx3mgVxgEeyhU-IAtk1nSw _jx4NkFxgEeyhU-IAtk1nSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jx2_cFxgEeyhU-IAtk1nSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jx3mgFxgEeyhU-IAtk1nSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jx3mgVxgEeyhU-IAtk1nSw" name="customer" type="_IBI8cFxeEeyhU-IAtk1nSw" association="_jx1KQFxgEeyhU-IAtk1nSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jx4NkFxgEeyhU-IAtk1nSw" name="registernewaccount" type="_ialVYFxeEeyhU-IAtk1nSw" association="_jx1KQFxgEeyhU-IAtk1nSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rUXHkFxgEeyhU-IAtk1nSw" name="Enters required field" memberEnd="_rUXuolxgEeyhU-IAtk1nSw _rUYVsFxgEeyhU-IAtk1nSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rUXuoFxgEeyhU-IAtk1nSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rUXuoVxgEeyhU-IAtk1nSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rUXuolxgEeyhU-IAtk1nSw" name="customer" type="_IBI8cFxeEeyhU-IAtk1nSw" association="_rUXHkFxgEeyhU-IAtk1nSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rUYVsFxgEeyhU-IAtk1nSw" name="enter the required fields" type="_5mGZwFxeEeyhU-IAtk1nSw" association="_rUXHkFxgEeyhU-IAtk1nSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r4D1EFxhEeyhU-IAtk1nSw" name="Checks if Username is unique" memberEnd="_r4FqQFxhEeyhU-IAtk1nSw _r4GRUFxhEeyhU-IAtk1nSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r4FDMFxhEeyhU-IAtk1nSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r4FDMVxhEeyhU-IAtk1nSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r4FqQFxhEeyhU-IAtk1nSw" name="username unique ?" type="_BX0poFxfEeyhU-IAtk1nSw" association="_r4D1EFxhEeyhU-IAtk1nSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r4GRUFxhEeyhU-IAtk1nSw" name="azula database" type="_JNurYFxeEeyhU-IAtk1nSw" association="_r4D1EFxhEeyhU-IAtk1nSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dAUvUFxiEeyhU-IAtk1nSw" name="Redirected to Login Page" memberEnd="_dAV9cVxiEeyhU-IAtk1nSw _dAV9clxiEeyhU-IAtk1nSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dAVWYFxiEeyhU-IAtk1nSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dAV9cFxiEeyhU-IAtk1nSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dAV9cVxiEeyhU-IAtk1nSw" name="customer" type="_IBI8cFxeEeyhU-IAtk1nSw" association="_dAUvUFxiEeyhU-IAtk1nSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dAV9clxiEeyhU-IAtk1nSw" name="redirect to login page" type="_KRlDIFxgEeyhU-IAtk1nSw" association="_dAUvUFxiEeyhU-IAtk1nSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kIwxoFxiEeyhU-IAtk1nSw" name="Show Error if Duplication exists" memberEnd="_kIx_wlxiEeyhU-IAtk1nSw _kIym0FxiEeyhU-IAtk1nSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kIx_wFxiEeyhU-IAtk1nSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kIx_wVxiEeyhU-IAtk1nSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kIx_wlxiEeyhU-IAtk1nSw" name="username duplication error message box" type="_-myagFxgEeyhU-IAtk1nSw" association="_kIwxoFxiEeyhU-IAtk1nSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kIym0FxiEeyhU-IAtk1nSw" name="management system" type="_LDodEFxeEeyhU-IAtk1nSw" association="_kIwxoFxiEeyhU-IAtk1nSw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rBCRAFxiEeyhU-IAtk1nSw" name="Loads the Application" memberEnd="_rBDfIVxiEeyhU-IAtk1nSw _rBDfIlxiEeyhU-IAtk1nSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rBC4EFxiEeyhU-IAtk1nSw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rBDfIFxiEeyhU-IAtk1nSw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rBDfIVxiEeyhU-IAtk1nSw" name="management system" type="_LDodEFxeEeyhU-IAtk1nSw" association="_rBCRAFxiEeyhU-IAtk1nSw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rBDfIlxiEeyhU-IAtk1nSw" name="login page (home page)" type="_ZtWfgFxeEeyhU-IAtk1nSw" association="_rBCRAFxiEeyhU-IAtk1nSw"/>
+  </packagedElement>
 </uml:Model>
