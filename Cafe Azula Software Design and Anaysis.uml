@@ -260,4 +260,56 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_rBDfIVxiEeyhU-IAtk1nSw" name="management system" type="_LDodEFxeEeyhU-IAtk1nSw" association="_rBCRAFxiEeyhU-IAtk1nSw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_rBDfIlxiEeyhU-IAtk1nSw" name="login page (home page)" type="_ZtWfgFxeEeyhU-IAtk1nSw" association="_rBCRAFxiEeyhU-IAtk1nSw"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_1CeUMFx3EeyrJMYamU-Rdg" name="Book Seats Activity" node="_mo7mUFx4EeyrJMYamU-Rdg _7SrCwFx-EeyrJMYamU-Rdg _pyGSgFx_EeyrJMYamU-Rdg _t6E0gFx_EeyrJMYamU-Rdg _gpXW8FyAEeyrJMYamU-Rdg _O2DQ4FyBEeyrJMYamU-Rdg _YN04kFyBEeyrJMYamU-Rdg _ss3voFyBEeyrJMYamU-Rdg _FgcW8FyCEeyrJMYamU-Rdg _QDFPQFyCEeyrJMYamU-Rdg _WF67cFyCEeyrJMYamU-Rdg _G-_jIFyDEeyrJMYamU-Rdg _o1nfUFyDEeyrJMYamU-Rdg _GEB6QFyEEeyrJMYamU-Rdg _OGetwFyEEeyrJMYamU-Rdg _avqb0FyEEeyrJMYamU-Rdg _ifPWoFyEEeyrJMYamU-Rdg _moNXIFyEEeyrJMYamU-Rdg _4Lhc4FyEEeyrJMYamU-Rdg" group="_UPtzUFx4EeyrJMYamU-Rdg _hN_AkFx4EeyrJMYamU-Rdg _-b6WgFx8EeyrJMYamU-Rdg _kRWq8Fx4EeyrJMYamU-Rdg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_iqaBoFyAEeyrJMYamU-Rdg" inPartition="_UPtzUFx4EeyrJMYamU-Rdg" target="_YN04kFyBEeyrJMYamU-Rdg" source="_mo7mUFx4EeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kN-tMFyAEeyrJMYamU-Rdg" target="_pyGSgFx_EeyrJMYamU-Rdg" source="_7SrCwFx-EeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lq5XIFyAEeyrJMYamU-Rdg" target="_t6E0gFx_EeyrJMYamU-Rdg" source="_pyGSgFx_EeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mk6vYFyAEeyrJMYamU-Rdg" inPartition="_kRWq8Fx4EeyrJMYamU-Rdg" source="_t6E0gFx_EeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_pwIuMFyAEeyrJMYamU-Rdg" name="[true]" target="_gpXW8FyAEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LTw14FyBEeyrJMYamU-Rdg" name="tuple found in customer" target="_gpXW8FyAEeyrJMYamU-Rdg" source="_t6E0gFx_EeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hnAOcFyBEeyrJMYamU-Rdg" target="_YN04kFyBEeyrJMYamU-Rdg" source="_O2DQ4FyBEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lrewgFyBEeyrJMYamU-Rdg" inPartition="_UPtzUFx4EeyrJMYamU-Rdg" target="_7SrCwFx-EeyrJMYamU-Rdg" source="_YN04kFyBEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wEhn8FyBEeyrJMYamU-Rdg" target="_ss3voFyBEeyrJMYamU-Rdg" source="_gpXW8FyAEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Mgi8oFyCEeyrJMYamU-Rdg" inPartition="_UPtzUFx4EeyrJMYamU-Rdg" target="_FgcW8FyCEeyrJMYamU-Rdg" source="_ss3voFyBEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_T1Ln4FyCEeyrJMYamU-Rdg" target="_QDFPQFyCEeyrJMYamU-Rdg" source="_FgcW8FyCEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bDtrIFyCEeyrJMYamU-Rdg" target="_WF67cFyCEeyrJMYamU-Rdg" source="_QDFPQFyCEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dyGHgFyDEeyrJMYamU-Rdg" target="_G-_jIFyDEeyrJMYamU-Rdg" source="_WF67cFyCEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sLLs8FyDEeyrJMYamU-Rdg" name="[true]" target="_o1nfUFyDEeyrJMYamU-Rdg" source="_G-_jIFyDEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JLgBgFyEEeyrJMYamU-Rdg" target="_GEB6QFyEEeyrJMYamU-Rdg" source="_o1nfUFyDEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RxbVgFyEEeyrJMYamU-Rdg" target="_OGetwFyEEeyrJMYamU-Rdg" source="_GEB6QFyEEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fUNlEFyEEeyrJMYamU-Rdg" target="_avqb0FyEEeyrJMYamU-Rdg" source="_OGetwFyEEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qfcHYFyEEeyrJMYamU-Rdg" target="_ifPWoFyEEeyrJMYamU-Rdg" source="_moNXIFyEEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rkfD4FyEEeyrJMYamU-Rdg" name="[false]" target="_moNXIFyEEeyrJMYamU-Rdg" source="_G-_jIFyDEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_uXsLUFyEEeyrJMYamU-Rdg" target="_moNXIFyEEeyrJMYamU-Rdg" source="_avqb0FyEEeyrJMYamU-Rdg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_9fuhcFyEEeyrJMYamU-Rdg" target="_moNXIFyEEeyrJMYamU-Rdg" source="_4Lhc4FyEEeyrJMYamU-Rdg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_UPtzUFx4EeyrJMYamU-Rdg" name="Customer Swimlane" node="_mo7mUFx4EeyrJMYamU-Rdg _7SrCwFx-EeyrJMYamU-Rdg _YN04kFyBEeyrJMYamU-Rdg _ss3voFyBEeyrJMYamU-Rdg _FgcW8FyCEeyrJMYamU-Rdg _o1nfUFyDEeyrJMYamU-Rdg" edge="_iqaBoFyAEeyrJMYamU-Rdg _lrewgFyBEeyrJMYamU-Rdg _Mgi8oFyCEeyrJMYamU-Rdg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_hN_AkFx4EeyrJMYamU-Rdg" name="Booking System" node="_QDFPQFyCEeyrJMYamU-Rdg _G-_jIFyDEeyrJMYamU-Rdg _GEB6QFyEEeyrJMYamU-Rdg _avqb0FyEEeyrJMYamU-Rdg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_kRWq8Fx4EeyrJMYamU-Rdg" name="SqlDatabase" node="_t6E0gFx_EeyrJMYamU-Rdg _O2DQ4FyBEeyrJMYamU-Rdg _WF67cFyCEeyrJMYamU-Rdg _OGetwFyEEeyrJMYamU-Rdg _4Lhc4FyEEeyrJMYamU-Rdg" edge="_mk6vYFyAEeyrJMYamU-Rdg"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_-b6WgFx8EeyrJMYamU-Rdg" name="Login" node="_pyGSgFx_EeyrJMYamU-Rdg _gpXW8FyAEeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_mo7mUFx4EeyrJMYamU-Rdg" name="Start" outgoing="_iqaBoFyAEeyrJMYamU-Rdg" inPartition="_UPtzUFx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7SrCwFx-EeyrJMYamU-Rdg" name="Enter username and pass" incoming="_lrewgFyBEeyrJMYamU-Rdg" outgoing="_kN-tMFyAEeyrJMYamU-Rdg" inPartition="_UPtzUFx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_pyGSgFx_EeyrJMYamU-Rdg" name="CheckAccount query" incoming="_kN-tMFyAEeyrJMYamU-Rdg" outgoing="_lq5XIFyAEeyrJMYamU-Rdg" inPartition="_-b6WgFx8EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_t6E0gFx_EeyrJMYamU-Rdg" name="run query" incoming="_lq5XIFyAEeyrJMYamU-Rdg" outgoing="_mk6vYFyAEeyrJMYamU-Rdg _LTw14FyBEeyrJMYamU-Rdg" inPartition="_kRWq8Fx4EeyrJMYamU-Rdg">
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_O4kZYFyBEeyrJMYamU-Rdg"/>
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_nRcowFyBEeyrJMYamU-Rdg"/>
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_3gZ4wFyDEeyrJMYamU-Rdg"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_gpXW8FyAEeyrJMYamU-Rdg" name="Login succuss" incoming="_pwIuMFyAEeyrJMYamU-Rdg _LTw14FyBEeyrJMYamU-Rdg" outgoing="_wEhn8FyBEeyrJMYamU-Rdg" inPartition="_-b6WgFx8EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:AcceptEventAction" xmi:id="_O2DQ4FyBEeyrJMYamU-Rdg" name="Query failed, invalid credentials" outgoing="_hnAOcFyBEeyrJMYamU-Rdg" inPartition="_kRWq8Fx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_YN04kFyBEeyrJMYamU-Rdg" name="" incoming="_iqaBoFyAEeyrJMYamU-Rdg _hnAOcFyBEeyrJMYamU-Rdg" outgoing="_lrewgFyBEeyrJMYamU-Rdg" inPartition="_UPtzUFx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ss3voFyBEeyrJMYamU-Rdg" name="Click Book Seats button" incoming="_wEhn8FyBEeyrJMYamU-Rdg" outgoing="_Mgi8oFyCEeyrJMYamU-Rdg" inPartition="_UPtzUFx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FgcW8FyCEeyrJMYamU-Rdg" name="Enter num of seats and time" incoming="_Mgi8oFyCEeyrJMYamU-Rdg" outgoing="_T1Ln4FyCEeyrJMYamU-Rdg" inPartition="_UPtzUFx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_QDFPQFyCEeyrJMYamU-Rdg" name="CheckAvailability()" incoming="_T1Ln4FyCEeyrJMYamU-Rdg" outgoing="_bDtrIFyCEeyrJMYamU-Rdg" inPartition="_hN_AkFx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WF67cFyCEeyrJMYamU-Rdg" name="ExecuteReader() query to Seats" incoming="_bDtrIFyCEeyrJMYamU-Rdg" outgoing="_dyGHgFyDEeyrJMYamU-Rdg" inPartition="_kRWq8Fx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_G-_jIFyDEeyrJMYamU-Rdg" name="tuples returned equal to number of seats entered?" incoming="_dyGHgFyDEeyrJMYamU-Rdg" outgoing="_sLLs8FyDEeyrJMYamU-Rdg _rkfD4FyEEeyrJMYamU-Rdg" inPartition="_hN_AkFx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_o1nfUFyDEeyrJMYamU-Rdg" name="Select seats" incoming="_sLLs8FyDEeyrJMYamU-Rdg" outgoing="_JLgBgFyEEeyrJMYamU-Rdg" inPartition="_UPtzUFx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_GEB6QFyEEeyrJMYamU-Rdg" name="BookMultipleSeats()" incoming="_JLgBgFyEEeyrJMYamU-Rdg" outgoing="_RxbVgFyEEeyrJMYamU-Rdg" inPartition="_hN_AkFx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_OGetwFyEEeyrJMYamU-Rdg" name="Bookings Query" incoming="_RxbVgFyEEeyrJMYamU-Rdg" outgoing="_fUNlEFyEEeyrJMYamU-Rdg" inPartition="_kRWq8Fx4EeyrJMYamU-Rdg">
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_6e2KYFyEEeyrJMYamU-Rdg"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_avqb0FyEEeyrJMYamU-Rdg" name="MessageBox(&quot;Success&quot;)" incoming="_fUNlEFyEEeyrJMYamU-Rdg" outgoing="_uXsLUFyEEeyrJMYamU-Rdg" inPartition="_hN_AkFx4EeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_ifPWoFyEEeyrJMYamU-Rdg" name="Finish" incoming="_qfcHYFyEEeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_moNXIFyEEeyrJMYamU-Rdg" name="" incoming="_rkfD4FyEEeyrJMYamU-Rdg _uXsLUFyEEeyrJMYamU-Rdg _9fuhcFyEEeyrJMYamU-Rdg" outgoing="_qfcHYFyEEeyrJMYamU-Rdg"/>
+    <node xmi:type="uml:AcceptEventAction" xmi:id="_4Lhc4FyEEeyrJMYamU-Rdg" name="Could not book due to conflict" outgoing="_9fuhcFyEEeyrJMYamU-Rdg" inPartition="_kRWq8Fx4EeyrJMYamU-Rdg"/>
+  </packagedElement>
 </uml:Model>
