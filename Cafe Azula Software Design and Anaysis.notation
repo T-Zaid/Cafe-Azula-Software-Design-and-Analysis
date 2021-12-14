@@ -408,20 +408,83 @@
     <children xmi:type="notation:Shape" xmi:id="_KaxPsVuBEey4eM0_v66iQw" type="Interaction_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_KaxPsluBEey4eM0_v66iQw" type="Interaction_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_KaxPs1uBEey4eM0_v66iQw" type="Interaction_SubfragmentCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_74IhQFxzEeyFp7XaK48ohA" type="CombinedFragment_Shape">
+          <children xmi:type="notation:BasicCompartment" xmi:id="_74JIUFxzEeyFp7XaK48ohA" type="CombinedFragment_SubfragmentCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_74JvYFxzEeyFp7XaK48ohA" type="InteractionOperand_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_74JvYlxzEeyFp7XaK48ohA" type="InteractionOperand_Guard">
+                <element xmi:type="uml:InteractionConstraint" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_730YMVxzEeyFp7XaK48ohA"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_74JvY1xzEeyFp7XaK48ohA" x="5" y="5"/>
+              </children>
+              <element xmi:type="uml:InteractionOperand" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_730YMFxzEeyFp7XaK48ohA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_74JvYVxzEeyFp7XaK48ohA" width="781" height="302"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_74JIUVxzEeyFp7XaK48ohA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_74JIUlxzEeyFp7XaK48ohA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_74JIU1xzEeyFp7XaK48ohA"/>
+          </children>
+          <element xmi:type="uml:CombinedFragment" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_73pZEFxzEeyFp7XaK48ohA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_74IhQVxzEeyFp7XaK48ohA" x="34" y="36" width="781" height="321"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Upnd4Fx0EeyFp7XaK48ohA" type="CombinedFragment_Shape">
+          <children xmi:type="notation:BasicCompartment" xmi:id="_UpoE8Fx0EeyFp7XaK48ohA" type="CombinedFragment_SubfragmentCompartment">
+            <children xmi:type="notation:Shape" xmi:id="_UposAFx0EeyFp7XaK48ohA" type="InteractionOperand_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_UposAlx0EeyFp7XaK48ohA" type="InteractionOperand_Guard">
+                <element xmi:type="uml:InteractionConstraint" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_UpT74Vx0EeyFp7XaK48ohA"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UposA1x0EeyFp7XaK48ohA" x="5" y="5"/>
+              </children>
+              <element xmi:type="uml:InteractionOperand" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_UpT74Fx0EeyFp7XaK48ohA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UposAVx0EeyFp7XaK48ohA" width="741" height="101"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_Wuv-YFx0EeyFp7XaK48ohA" type="InteractionOperand_Shape">
+              <children xmi:type="notation:DecorationNode" xmi:id="_WuwlcFx0EeyFp7XaK48ohA" type="InteractionOperand_Guard">
+                <element xmi:type="uml:InteractionConstraint" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_WudDcFx0EeyFp7XaK48ohA"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WuwlcVx0EeyFp7XaK48ohA" x="5" y="5"/>
+              </children>
+              <element xmi:type="uml:InteractionOperand" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_WuanMFx0EeyFp7XaK48ohA"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Wuv-YVx0EeyFp7XaK48ohA" y="101" width="741" height="101"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_UpoE8Vx0EeyFp7XaK48ohA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_UpoE8lx0EeyFp7XaK48ohA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UpoE81x0EeyFp7XaK48ohA"/>
+          </children>
+          <element xmi:type="uml:CombinedFragment" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_UpSGsFx0EeyFp7XaK48ohA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Upnd4Vx0EeyFp7XaK48ohA" x="54" y="116" width="741" height="221"/>
+        </children>
         <children xmi:type="notation:Shape" xmi:id="_PnHYwFuBEey4eM0_v66iQw" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_PnHYwluBEey4eM0_v66iQw" type="Lifeline_NameLabel"/>
+          <children xmi:type="notation:Shape" xmi:id="_2nfHAFxzEeyFp7XaK48ohA" type="ActionExecutionSpecification_Shape">
+            <element xmi:type="uml:ActionExecutionSpecification" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_2nGsgFxzEeyFp7XaK48ohA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2nfHAVxzEeyFp7XaK48ohA" x="40" y="66" width="20" height="740"/>
+          </children>
           <element xmi:type="uml:Lifeline" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_Pm9nwFuBEey4eM0_v66iQw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PnHYwVuBEey4eM0_v66iQw" x="134" y="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PnHYwVuBEey4eM0_v66iQw" x="174" y="10" height="1011"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_R8_rAVuBEey4eM0_v66iQw" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_R8_rA1uBEey4eM0_v66iQw" type="Lifeline_NameLabel"/>
+          <children xmi:type="notation:Shape" xmi:id="_I1IjMFx0EeyFp7XaK48ohA" type="ActionExecutionSpecification_Shape">
+            <element xmi:type="uml:ActionExecutionSpecification" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_I02PUFx0EeyFp7XaK48ohA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I1IjMVx0EeyFp7XaK48ohA" x="40" y="66" width="20" height="240"/>
+          </children>
           <element xmi:type="uml:Lifeline" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_R8_rAFuBEey4eM0_v66iQw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R8_rAluBEey4eM0_v66iQw" x="407" y="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R8_rAluBEey4eM0_v66iQw" x="334" y="10" height="1011"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_S6qNIFuBEey4eM0_v66iQw" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_S6qNIluBEey4eM0_v66iQw" type="Lifeline_NameLabel"/>
+          <children xmi:type="notation:Shape" xmi:id="_MNtBgFx0EeyFp7XaK48ohA" type="ActionExecutionSpecification_Shape">
+            <element xmi:type="uml:ActionExecutionSpecification" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_MNZfgFx0EeyFp7XaK48ohA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MNtBgVx0EeyFp7XaK48ohA" x="40" y="86" width="20" height="201"/>
+          </children>
           <element xmi:type="uml:Lifeline" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_S6gcIFuBEey4eM0_v66iQw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6qNIVuBEey4eM0_v66iQw" x="674" y="10"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S6qNIVuBEey4eM0_v66iQw" x="674" y="10" height="1011"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wCHVgFxzEeyFp7XaK48ohA" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_wCIjoFxzEeyFp7XaK48ohA" type="Lifeline_NameLabel"/>
+          <children xmi:type="notation:Shape" xmi:id="_2-aj0Fx0EeyFp7XaK48ohA" type="ActionExecutionSpecification_Shape">
+            <element xmi:type="uml:ActionExecutionSpecification" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_2-ElkFx0EeyFp7XaK48ohA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2-aj0Vx0EeyFp7XaK48ohA" x="40" y="386" width="20" height="100"/>
+          </children>
+          <element xmi:type="uml:Lifeline" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_wBxXQFxzEeyFp7XaK48ohA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wCHVgVxzEeyFp7XaK48ohA" x="514" y="10" height="1011"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KaxPtFuBEey4eM0_v66iQw"/>
       </children>
@@ -434,6 +497,84 @@
       <owner xmi:type="uml:Model" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_Qft-EFtoEeyOjObmBw0n-A"/>
     </styles>
     <element xmi:type="uml:Interaction" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_IxUloFuBEey4eM0_v66iQw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_JeZioFx0EeyFp7XaK48ohA" type="Message_SynchEdge" source="_PnHYwFuBEey4eM0_v66iQw" target="_R8_rAVuBEey4eM0_v66iQw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JeaJsFx0EeyFp7XaK48ohA" type="Message_SynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JeawwFx0EeyFp7XaK48ohA" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JeawwVx0EeyFp7XaK48ohA" type="Message_SynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Jeawwlx0EeyFp7XaK48ohA" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_JeZioVx0EeyFp7XaK48ohA"/>
+      <element xmi:type="uml:Message" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_JbdjYFx0EeyFp7XaK48ohA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JeZiolx0EeyFp7XaK48ohA" points="[-10, 0, -170, 60]$[150, -60, -10, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jfr8EFx0EeyFp7XaK48ohA" id="(0.5,0.06528189910979229)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jfr8EVx0EeyFp7XaK48ohA" id="(0.5,0.06528189910979229)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_M-wD8Fx0EeyFp7XaK48ohA" type="Message_SynchEdge" source="_R8_rAVuBEey4eM0_v66iQw" target="_S6qNIFuBEey4eM0_v66iQw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_M-wD81x0EeyFp7XaK48ohA" type="Message_SynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_M-wD9Fx0EeyFp7XaK48ohA" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_M-wD9Vx0EeyFp7XaK48ohA" type="Message_SynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_M-wD9lx0EeyFp7XaK48ohA" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_M-wD8Vx0EeyFp7XaK48ohA"/>
+      <element xmi:type="uml:Message" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_M-N4cFx0EeyFp7XaK48ohA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_M-wD8lx0EeyFp7XaK48ohA" points="[-10, 10, -350, 0]$[330, 10, -10, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M_S2gFx0EeyFp7XaK48ohA" id="(0.5,0.08506429277942631)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M_S2gVx0EeyFp7XaK48ohA" id="(0.5,0.08506429277942631)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_ijy5wFx0EeyFp7XaK48ohA" type="Message_ReplyEdge" source="_S6qNIFuBEey4eM0_v66iQw" target="_R8_rAVuBEey4eM0_v66iQw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ijy5w1x0EeyFp7XaK48ohA" type="Message_ReplyNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ijy5xFx0EeyFp7XaK48ohA" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ijy5xVx0EeyFp7XaK48ohA" type="Message_ReplyStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ijy5xlx0EeyFp7XaK48ohA" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ijy5wVx0EeyFp7XaK48ohA"/>
+      <element xmi:type="uml:Message" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_ijhM8Fx0EeyFp7XaK48ohA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ijy5wlx0EeyFp7XaK48ohA" points="[-10, 4, 330, -60]$[-350, 64, -10, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ikZWsFx0EeyFp7XaK48ohA" id="(0.5,0.18397626112759644)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ikZWsVx0EeyFp7XaK48ohA" id="(0.5,0.18397626112759644)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_ltM6sFx0EeyFp7XaK48ohA" type="Message_ReplyEdge" source="_S6qNIFuBEey4eM0_v66iQw" target="_R8_rAVuBEey4eM0_v66iQw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ltNhwFx0EeyFp7XaK48ohA" type="Message_ReplyNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ltNhwVx0EeyFp7XaK48ohA" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ltNhwlx0EeyFp7XaK48ohA" type="Message_ReplyStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ltNhw1x0EeyFp7XaK48ohA" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ltM6sVx0EeyFp7XaK48ohA"/>
+      <element xmi:type="uml:Message" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_ls28cFx0EeyFp7XaK48ohA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ltM6slx0EeyFp7XaK48ohA" points="[-10, 8, 330, -120]$[-350, 128, -10, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ltvGMFx0EeyFp7XaK48ohA" id="(0.5,0.2828882294757666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ltvtQFx0EeyFp7XaK48ohA" id="(0.5,0.2828882294757666)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_rJ3-wFx0EeyFp7XaK48ohA" type="Message_ReplyEdge" source="_R8_rAVuBEey4eM0_v66iQw" target="_PnHYwFuBEey4eM0_v66iQw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_rJ3-w1x0EeyFp7XaK48ohA" type="Message_ReplyNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rJ3-xFx0EeyFp7XaK48ohA" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_rJ3-xVx0EeyFp7XaK48ohA" type="Message_ReplyStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rJ4l0Fx0EeyFp7XaK48ohA" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_rJ3-wVx0EeyFp7XaK48ohA"/>
+      <element xmi:type="uml:Message" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_rJWaUFx0EeyFp7XaK48ohA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rJ3-wlx0EeyFp7XaK48ohA" points="[-10, 8, 150, -160]$[-170, 168, -10, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rKhfAFx0EeyFp7XaK48ohA" id="(0.5,0.3026706231454006)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rKiGEFx0EeyFp7XaK48ohA" id="(0.5,0.3026706231454006)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_z8-MEFx0EeyFp7XaK48ohA" type="Message_ReplyEdge" source="_R8_rAVuBEey4eM0_v66iQw" target="_PnHYwFuBEey4eM0_v66iQw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_z8-ME1x0EeyFp7XaK48ohA" type="Message_ReplyNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_z8-MFFx0EeyFp7XaK48ohA" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_z8-MFVx0EeyFp7XaK48ohA" type="Message_ReplyStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_z8-MFlx0EeyFp7XaK48ohA" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_z8-MEVx0EeyFp7XaK48ohA"/>
+      <element xmi:type="uml:Message" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_z8oN0Fx0EeyFp7XaK48ohA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_z8-MElx0EeyFp7XaK48ohA" points="[-10, -8, 150, -100]$[-170, 92, -10, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z9nsUFx0EeyFp7XaK48ohA" id="(0.5,0.20375865479723046)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z9oTYFx0EeyFp7XaK48ohA" id="(0.5,0.20375865479723046)"/>
+    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_CSXbwFxeEeyhU-IAtk1nSw" type="UseCase" name="CustomerCreateAccount_UseCase" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_GM6lwFxeEeyhU-IAtk1nSw" type="Package_Shape">
