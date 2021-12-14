@@ -1762,5 +1762,18 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9iQ4EFyEEeyrJMYamU-Rdg" id="(0.49586776859504134,0.9508196721311475)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9iRfIFyEEeyrJMYamU-Rdg" id="(0.9836065573770492,0.5081967213114754)"/>
     </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_U5BjIFyFEeyrJMYamU-Rdg" type="ExceptionHandler_Edge" source="_OG9O4FyEEeyrJMYamU-Rdg" target="_4MJvAFyEEeyrJMYamU-Rdg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_U5BjI1yFEeyrJMYamU-Rdg" type="ExceptionHandler_TypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_U5BjJFyFEeyrJMYamU-Rdg" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_U5BjJVyFEeyrJMYamU-Rdg" type="ExceptionHandler_IconLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_U5BjJlyFEeyrJMYamU-Rdg"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_U5BjIVyFEeyrJMYamU-Rdg"/>
+      <element xmi:type="uml:ExceptionHandler" href="Cafe%20Azula%20Software%20Design%20and%20Anaysis.uml#_U4ewkFyFEeyrJMYamU-Rdg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_U5BjIlyFEeyrJMYamU-Rdg" points="[6, 407, 664, 19]$[6, 447, 664, 59]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U6aqQFyFEeyrJMYamU-Rdg" id="(0.5671641791044776,0.8360655737704918)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U6bRUFyFEeyrJMYamU-Rdg" id="(0.512396694214876,0.11475409836065574)"/>
+    </edges>
   </notation:Diagram>
 </xmi:XMI>

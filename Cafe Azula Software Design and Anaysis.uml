@@ -306,6 +306,7 @@
     <node xmi:type="uml:OpaqueAction" xmi:id="_GEB6QFyEEeyrJMYamU-Rdg" name="BookMultipleSeats()" incoming="_JLgBgFyEEeyrJMYamU-Rdg" outgoing="_RxbVgFyEEeyrJMYamU-Rdg" inPartition="_hN_AkFx4EeyrJMYamU-Rdg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_OGetwFyEEeyrJMYamU-Rdg" name="Bookings Query" incoming="_RxbVgFyEEeyrJMYamU-Rdg" outgoing="_fUNlEFyEEeyrJMYamU-Rdg" inPartition="_kRWq8Fx4EeyrJMYamU-Rdg">
       <handler xmi:type="uml:ExceptionHandler" xmi:id="_6e2KYFyEEeyrJMYamU-Rdg"/>
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_U4ewkFyFEeyrJMYamU-Rdg"/>
     </node>
     <node xmi:type="uml:OpaqueAction" xmi:id="_avqb0FyEEeyrJMYamU-Rdg" name="MessageBox(&quot;Success&quot;)" incoming="_fUNlEFyEEeyrJMYamU-Rdg" outgoing="_uXsLUFyEEeyrJMYamU-Rdg" inPartition="_hN_AkFx4EeyrJMYamU-Rdg"/>
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_ifPWoFyEEeyrJMYamU-Rdg" name="Finish" incoming="_qfcHYFyEEeyrJMYamU-Rdg"/>
