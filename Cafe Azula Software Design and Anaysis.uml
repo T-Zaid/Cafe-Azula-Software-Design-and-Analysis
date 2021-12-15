@@ -920,23 +920,23 @@
     <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_caBd4F0eEeyLNfJXhBtJ5A" name="ActionExecutionSpecification8" covered="_2DYTIF0dEeyLNfJXhBtJ5A" finish="_caDTEF0eEeyLNfJXhBtJ5A" start="_sWapIF0eEeyLNfJXhBtJ5A"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wFuzgF0eEeyLNfJXhBtJ5A" name="Message19SendEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_wFuMcF0eEeyLNfJXhBtJ5A"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_OLefEF0fEeyLNfJXhBtJ5A" name="Message21SendEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_OLcp4F0fEeyLNfJXhBtJ5A"/>
-    <fragment xmi:type="uml:CombinedFragment" xmi:id="_fnNWIF0fEeyLNfJXhBtJ5A" name="CombinedFragment28" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A" interactionOperator="alt">
-      <operand xmi:type="uml:InteractionOperand" xmi:id="_fnOkQF0fEeyLNfJXhBtJ5A" name="InteractionOperand0" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A">
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_fnNWIF0fEeyLNfJXhBtJ5A" name="CombinedFragment28" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A" interactionOperator="alt">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_fnOkQF0fEeyLNfJXhBtJ5A" name="InteractionOperand0" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A">
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UrBVYF0fEeyLNfJXhBtJ5A" name="Message23SendEvent" covered="_9B16EF0dEeyLNfJXhBtJ5A" message="_UrAHQF0fEeyLNfJXhBtJ5A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UrB8cF0fEeyLNfJXhBtJ5A" name="Message23ReceiveEvent" covered="_JY_c8F0eEeyLNfJXhBtJ5A" message="_UrAHQF0fEeyLNfJXhBtJ5A"/>
         <guard xmi:type="uml:InteractionConstraint" xmi:id="_fnOkQV0fEeyLNfJXhBtJ5A" name="guard">
           <specification xmi:type="uml:LiteralString" xmi:id="_ibqawF0fEeyLNfJXhBtJ5A" value="reader.Read()?"/>
         </guard>
       </operand>
-      <operand xmi:type="uml:InteractionOperand" xmi:id="_hCbW8F0fEeyLNfJXhBtJ5A" name="InteractionOperand2" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_hCbW8F0fEeyLNfJXhBtJ5A" name="InteractionOperand2" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A">
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_caDTEF0eEeyLNfJXhBtJ5A" name="ActionExecutionSpecification8Finish" covered="_2DYTIF0dEeyLNfJXhBtJ5A" execution="_caBd4F0eEeyLNfJXhBtJ5A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YIdFkF0fEeyLNfJXhBtJ5A" name="Message26SendEvent" covered="_9B16EF0dEeyLNfJXhBtJ5A" message="_YIb3cF0fEeyLNfJXhBtJ5A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YIdsoF0fEeyLNfJXhBtJ5A" name="Message26ReceiveEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_YIb3cF0fEeyLNfJXhBtJ5A"/>
         <guard xmi:type="uml:InteractionConstraint" xmi:id="_hCdMIF0fEeyLNfJXhBtJ5A" name="guard"/>
       </operand>
     </fragment>
-    <fragment xmi:type="uml:CombinedFragment" xmi:id="_wy4_AF0fEeyLNfJXhBtJ5A" name="CombinedFragment27" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A" interactionOperator="alt">
-      <operand xmi:type="uml:InteractionOperand" xmi:id="_wy5mEF0fEeyLNfJXhBtJ5A" name="InteractionOperand0" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A">
+    <fragment xmi:type="uml:CombinedFragment" xmi:id="_wy4_AF0fEeyLNfJXhBtJ5A" name="CombinedFragment27" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A" interactionOperator="alt">
+      <operand xmi:type="uml:InteractionOperand" xmi:id="_wy5mEF0fEeyLNfJXhBtJ5A" name="InteractionOperand0" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A">
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FyZe0F0gEeyLNfJXhBtJ5A" name="Message28SendEvent" covered="_ynrBQF0dEeyLNfJXhBtJ5A" message="_FyV0cF0gEeyLNfJXhBtJ5A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FyaF4F0gEeyLNfJXhBtJ5A" name="Message28ReceiveEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_FyV0cF0gEeyLNfJXhBtJ5A"/>
         <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_9Jvm8F0fEeyLNfJXhBtJ5A" name="ActionExecutionSpecification28" covered="_2DYTIF0dEeyLNfJXhBtJ5A" finish="_igIOkF0gEeyLNfJXhBtJ5A" start="_FyaF4F0gEeyLNfJXhBtJ5A"/>
@@ -1539,6 +1539,124 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_nBUTAl3qEeyoU-Jelrj2sA" name="data management system" type="_URu5UF3oEeyoU-Jelrj2sA" association="_nBTE4F3qEeyoU-Jelrj2sA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_nBU6EF3qEeyoU-Jelrj2sA" name="display success message" type="_dRnTgF3qEeyoU-Jelrj2sA" association="_nBTE4F3qEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_baGi0F3rEeyoU-Jelrj2sA" name="Add Seats">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yXo1kF3rEeyoU-Jelrj2sA" name="Enter Seat Management">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_aSEuUF3sEeyoU-Jelrj2sA" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7lBLIF3rEeyoU-Jelrj2sA" name="Add Seats">
+      <extend xmi:type="uml:Extend" xmi:id="_aSEHQF3sEeyoU-Jelrj2sA" extendedCase="_yXo1kF3rEeyoU-Jelrj2sA" extensionLocation="_aSEuUF3sEeyoU-Jelrj2sA"/>
+      <include xmi:type="uml:Include" xmi:id="_bQdpMF3sEeyoU-Jelrj2sA" addition="_AFnogF3sEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AFnogF3sEeyoU-Jelrj2sA" name="Create seat insertion tab">
+      <include xmi:type="uml:Include" xmi:id="_e1hrYF3sEeyoU-Jelrj2sA" addition="_GKAM0F3sEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_CKcnAF3sEeyoU-Jelrj2sA" name="Switch tabs">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_p0c3EF3sEeyoU-Jelrj2sA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qlM-kF3sEeyoU-Jelrj2sA" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_ub2gAF3sEeyoU-Jelrj2sA" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GKAM0F3sEeyoU-Jelrj2sA" name="Send computers query">
+      <include xmi:type="uml:Include" xmi:id="_gblDMF3sEeyoU-Jelrj2sA" addition="_PBOsMF3sEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PBOsMF3sEeyoU-Jelrj2sA" name="return computer info">
+      <include xmi:type="uml:Include" xmi:id="_hYW0gF3sEeyoU-Jelrj2sA" addition="_SpRw8F3sEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SpRw8F3sEeyoU-Jelrj2sA" name="Fill computer dropdown">
+      <include xmi:type="uml:Include" xmi:id="_iZVJUF3sEeyoU-Jelrj2sA" addition="_CKcnAF3sEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ljNrYF3sEeyoU-Jelrj2sA" name="Select computer for seat">
+      <extend xmi:type="uml:Extend" xmi:id="_qlMXgF3sEeyoU-Jelrj2sA" extendedCase="_CKcnAF3sEeyoU-Jelrj2sA" extensionLocation="_qlM-kF3sEeyoU-Jelrj2sA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_vjePYF3sEeyoU-Jelrj2sA" extendedCase="_rQQGsF3sEeyoU-Jelrj2sA" extensionLocation="_vjfdgF3sEeyoU-Jelrj2sA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vCjToF3sEeyoU-Jelrj2sA" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xVtpEF3sEeyoU-Jelrj2sA" name="ExtensionPoint4"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_npEkoF3sEeyoU-Jelrj2sA" name="Back">
+      <extend xmi:type="uml:Extend" xmi:id="_p0cQAF3sEeyoU-Jelrj2sA" extendedCase="_CKcnAF3sEeyoU-Jelrj2sA" extensionLocation="_p0c3EF3sEeyoU-Jelrj2sA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_xVtCAF3sEeyoU-Jelrj2sA" extendedCase="_ljNrYF3sEeyoU-Jelrj2sA" extensionLocation="_xVtpEF3sEeyoU-Jelrj2sA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_x96RgF3sEeyoU-Jelrj2sA" extendedCase="_rQQGsF3sEeyoU-Jelrj2sA" extensionLocation="_x964kF3sEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_rQQGsF3sEeyoU-Jelrj2sA" name="Enter premium yes/no">
+      <extend xmi:type="uml:Extend" xmi:id="_ub148F3sEeyoU-Jelrj2sA" extendedCase="_CKcnAF3sEeyoU-Jelrj2sA" extensionLocation="_ub2gAF3sEeyoU-Jelrj2sA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_vCiFgF3sEeyoU-Jelrj2sA" extendedCase="_ljNrYF3sEeyoU-Jelrj2sA" extensionLocation="_vCjToF3sEeyoU-Jelrj2sA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vjfdgF3sEeyoU-Jelrj2sA" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_x964kF3sEeyoU-Jelrj2sA" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_CC9pgF3tEeyoU-Jelrj2sA" name="ExtensionPoint5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-SFY4F3sEeyoU-Jelrj2sA" name="Register seat">
+      <extend xmi:type="uml:Extend" xmi:id="_CC9CcF3tEeyoU-Jelrj2sA" extendedCase="_rQQGsF3sEeyoU-Jelrj2sA" extensionLocation="_CC9pgF3tEeyoU-Jelrj2sA"/>
+      <include xmi:type="uml:Include" xmi:id="_BWMDEF3tEeyoU-Jelrj2sA" addition="_ljNrYF3sEeyoU-Jelrj2sA"/>
+      <include xmi:type="uml:Include" xmi:id="_KGSmwF3tEeyoU-Jelrj2sA" addition="_HKJlwF3tEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HKJlwF3tEeyoU-Jelrj2sA" name="Insert query into Seats table">
+      <include xmi:type="uml:Include" xmi:id="_YRT7AF3tEeyoU-Jelrj2sA" addition="_UROJsF3tEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UROJsF3tEeyoU-Jelrj2sA" name="Generates SeatNo primary key">
+      <include xmi:type="uml:Include" xmi:id="_5EkVsF3tEeyoU-Jelrj2sA" addition="_2rhasF3tEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vhKFwF3tEeyoU-Jelrj2sA" name="Success Message"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2rhasF3tEeyoU-Jelrj2sA" name="Seat inserted">
+      <include xmi:type="uml:Include" xmi:id="_6slcYF3tEeyoU-Jelrj2sA" addition="_vhKFwF3tEeyoU-Jelrj2sA"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ixBtEF3rEeyoU-Jelrj2sA" name="Staff/Employee"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_knoCUF3rEeyoU-Jelrj2sA" name="Data Management System"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_nAbswF3rEeyoU-Jelrj2sA" name="Database"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WzoRgF3sEeyoU-Jelrj2sA" name="Employee clicks seat management" memberEnd="_WzqGsF3sEeyoU-Jelrj2sA _WzqGsV3sEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WzpfoF3sEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WzpfoV3sEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WzqGsF3sEeyoU-Jelrj2sA" name="staff/employee" type="_ixBtEF3rEeyoU-Jelrj2sA" association="_WzoRgF3sEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WzqGsV3sEeyoU-Jelrj2sA" name="enter seat management" type="_yXo1kF3rEeyoU-Jelrj2sA" association="_WzoRgF3sEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cKWekF3sEeyoU-Jelrj2sA" name="System creates new tab" memberEnd="_cKYTwF3sEeyoU-Jelrj2sA _cKYTwV3sEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cKXssF3sEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cKXssV3sEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cKYTwF3sEeyoU-Jelrj2sA" name="data management system" type="_knoCUF3rEeyoU-Jelrj2sA" association="_cKWekF3sEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cKYTwV3sEeyoU-Jelrj2sA" name="create seat insertion tab" type="_AFnogF3sEeyoU-Jelrj2sA" association="_cKWekF3sEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0N9BgF3sEeyoU-Jelrj2sA" name="Employee sets a computer for the new seat" memberEnd="_0N-Pol3sEeyoU-Jelrj2sA _0N-2sF3sEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0N-PoF3sEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0N-PoV3sEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0N-Pol3sEeyoU-Jelrj2sA" name="staff/employee" type="_ixBtEF3rEeyoU-Jelrj2sA" association="_0N9BgF3sEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0N-2sF3sEeyoU-Jelrj2sA" name="select computer for seat" type="_ljNrYF3sEeyoU-Jelrj2sA" association="_0N9BgF3sEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3BuJoF3sEeyoU-Jelrj2sA" name="Employee species whether it's a premium seat" memberEnd="_3Buwsl3sEeyoU-Jelrj2sA _3BvXwF3sEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3BuwsF3sEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3BuwsV3sEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3Buwsl3sEeyoU-Jelrj2sA" name="staff/employee" type="_ixBtEF3rEeyoU-Jelrj2sA" association="_3BuJoF3sEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3BvXwF3sEeyoU-Jelrj2sA" name="enter premium yes/no" type="_rQQGsF3sEeyoU-Jelrj2sA" association="_3BuJoF3sEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_L-01sF3tEeyoU-Jelrj2sA" name="DB returns computer tuples" memberEnd="_L-35AV3tEeyoU-Jelrj2sA _L-35Al3tEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L-3R8F3tEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_L-35AF3tEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_L-35AV3tEeyoU-Jelrj2sA" name="database" type="_nAbswF3rEeyoU-Jelrj2sA" association="_L-01sF3tEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_L-35Al3tEeyoU-Jelrj2sA" name="return computer info" type="_PBOsMF3sEeyoU-Jelrj2sA" association="_L-01sF3tEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PygisF3tEeyoU-Jelrj2sA" name="System makes insert query" memberEnd="_Pyhw0l3tEeyoU-Jelrj2sA _PyiX4F3tEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pyhw0F3tEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pyhw0V3tEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Pyhw0l3tEeyoU-Jelrj2sA" name="data management system" type="_knoCUF3rEeyoU-Jelrj2sA" association="_PygisF3tEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PyiX4F3tEeyoU-Jelrj2sA" name="insert query into seats table" type="_HKJlwF3tEeyoU-Jelrj2sA" association="_PygisF3tEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aByaIF3tEeyoU-Jelrj2sA" name="DB inserts seat" memberEnd="_aB02YV3tEeyoU-Jelrj2sA _aB02Yl3tEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aB0PUF3tEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aB02YF3tEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aB02YV3tEeyoU-Jelrj2sA" name="generates seatno primary key" type="_UROJsF3tEeyoU-Jelrj2sA" association="_aByaIF3tEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aB02Yl3tEeyoU-Jelrj2sA" name="database" type="_nAbswF3rEeyoU-Jelrj2sA" association="_aByaIF3tEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xIOKMF3tEeyoU-Jelrj2sA" name="System shows success box" memberEnd="_xIP_YV3tEeyoU-Jelrj2sA _xIP_Yl3tEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xIPYUF3tEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xIP_YF3tEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xIP_YV3tEeyoU-Jelrj2sA" name="data management system" type="_knoCUF3rEeyoU-Jelrj2sA" association="_xIOKMF3tEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xIP_Yl3tEeyoU-Jelrj2sA" name="success message" type="_vhKFwF3tEeyoU-Jelrj2sA" association="_xIOKMF3tEeyoU-Jelrj2sA"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jUf3F12qEeyERdJWJTMIuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jUpBAF2qEeyERdJWJTMIuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
