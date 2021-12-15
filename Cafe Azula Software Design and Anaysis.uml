@@ -389,8 +389,37 @@
     <message xmi:type="uml:Message" xmi:id="_NNwz4FzCEeyvsuZz6w2v0g" name="Inserted" messageSort="reply" receiveEvent="_NN6k4VzCEeyvsuZz6w2v0g" sendEvent="_NN6k4FzCEeyvsuZz6w2v0g"/>
     <message xmi:type="uml:Message" xmi:id="_OzQyEFzCEeyvsuZz6w2v0g" name="ReceiptForm()" messageSort="reply" receiveEvent="_OzQyElzCEeyvsuZz6w2v0g" sendEvent="_OzQyEVzCEeyvsuZz6w2v0g"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:StateMachine" xmi:id="_HzeqkFzEEeykKJwenpQs_w" name="Book Seats">
-    <region xmi:type="uml:Region" xmi:id="_JBt_UFzEEeykKJwenpQs_w" name="Region1"/>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_HzeqkFzEEeykKJwenpQs_w" name="Book Seats Customer State">
+    <region xmi:type="uml:Region" xmi:id="_JBt_UFzEEeykKJwenpQs_w" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_WaVUcF2vEeyERdJWJTMIuQ" source="_mFzhEF2qEeyERdJWJTMIuQ" target="_35YQYF2qEeyERdJWJTMIuQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_iZa8oF2vEeyERdJWJTMIuQ" name="Login.CheckAccount()" source="_35YQYF2qEeyERdJWJTMIuQ" target="__tGrYF2qEeyERdJWJTMIuQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_OXPLQF2wEeyERdJWJTMIuQ" name="CustomerTab()" source="__tGrYF2qEeyERdJWJTMIuQ" target="_nTnGEF2sEeyERdJWJTMIuQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_frPCoF2wEeyERdJWJTMIuQ" name="ReceiptForm.Button(&quot;OK&quot;)" source="_YqcdQF2sEeyERdJWJTMIuQ" target="_nTnGEF2sEeyERdJWJTMIuQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_l-ODoF2wEeyERdJWJTMIuQ" name="PrintReceipt()" source="_YqcdQF2sEeyERdJWJTMIuQ" target="_fOvQsF2sEeyERdJWJTMIuQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_n-JUAF2wEeyERdJWJTMIuQ" name="ReceiptForm.Button(&quot;OK&quot;)" source="_fOvQsF2sEeyERdJWJTMIuQ" target="_nTnGEF2sEeyERdJWJTMIuQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_sFxQsF2wEeyERdJWJTMIuQ" name="Logout -> Application.Restart()" source="_nTnGEF2sEeyERdJWJTMIuQ" target="_35YQYF2qEeyERdJWJTMIuQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_-zX_UF2wEeyERdJWJTMIuQ" name="CustomerForm.Exit(0)" source="_35YQYF2qEeyERdJWJTMIuQ" target="_rJE7wF2sEeyERdJWJTMIuQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_uYRpYF2xEeyERdJWJTMIuQ" name="BookSeatsPage()" source="_nTnGEF2sEeyERdJWJTMIuQ" target="_SIjEQF2xEeyERdJWJTMIuQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_mFzhEF2qEeyERdJWJTMIuQ" name="Begin Program"/>
+      <subvertex xmi:type="uml:State" xmi:id="_35YQYF2qEeyERdJWJTMIuQ" name="Logged_out">
+        <region xmi:type="uml:Region" xmi:id="_WsxA4F2yEeyERdJWJTMIuQ" name="Region1"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="__tGrYF2qEeyERdJWJTMIuQ" name="Logged_in"/>
+      <subvertex xmi:type="uml:State" xmi:id="_YqcdQF2sEeyERdJWJTMIuQ" name="Receive_Receipt"/>
+      <subvertex xmi:type="uml:State" xmi:id="_fOvQsF2sEeyERdJWJTMIuQ" name="Have_printed_receipt"/>
+      <subvertex xmi:type="uml:State" xmi:id="_nTnGEF2sEeyERdJWJTMIuQ" name="Viewing_Main_Page"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_rJE7wF2sEeyERdJWJTMIuQ" name="End"/>
+      <subvertex xmi:type="uml:State" xmi:id="_MZzYwF2xEeyERdJWJTMIuQ" name="Bookings">
+        <region xmi:type="uml:Region" xmi:id="_SIhPEF2xEeyERdJWJTMIuQ" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_VV-CgF2xEeyERdJWJTMIuQ" name="Input(NumOfSeats,Time) -> &quot;unavailable&quot;" source="_SIjEQF2xEeyERdJWJTMIuQ" target="_SIjEQF2xEeyERdJWJTMIuQ"/>
+          <transition xmi:type="uml:Transition" xmi:id="_h9yeoF2xEeyERdJWJTMIuQ" name="Input(NumOfSeats,Time) -> &quot;available&quot;" source="_SIjEQF2xEeyERdJWJTMIuQ" target="_gScXIF2xEeyERdJWJTMIuQ"/>
+          <transition xmi:type="uml:Transition" xmi:id="_lz6boF2xEeyERdJWJTMIuQ" name="Input(SeatNums)" source="_gScXIF2xEeyERdJWJTMIuQ" target="_YqcdQF2sEeyERdJWJTMIuQ"/>
+          <transition xmi:type="uml:Transition" xmi:id="_rBbCUF2xEeyERdJWJTMIuQ" name="Cancel/Back" source="_gScXIF2xEeyERdJWJTMIuQ" target="_SIjEQF2xEeyERdJWJTMIuQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_SIjEQF2xEeyERdJWJTMIuQ" name="On_BookingPage1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_gScXIF2xEeyERdJWJTMIuQ" name="On_BookingPage2"/>
+        </region>
+      </subvertex>
+    </region>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_aWpjcFzHEeykKJwenpQs_w" name="View Bookings">
     <packagedElement xmi:type="uml:UseCase" xmi:id="_jhap4FzHEeykKJwenpQs_w" name="View Bookings">
@@ -961,4 +990,239 @@
     <message xmi:type="uml:Message" xmi:id="_ZM-LsF0hEeyLNfJXhBtJ5A" name="Query deleted" messageSort="reply" receiveEvent="_ZM_Z0F0hEeyLNfJXhBtJ5A" sendEvent="_ZM-ywF0hEeyLNfJXhBtJ5A"/>
     <message xmi:type="uml:Message" xmi:id="_bu2SkF0hEeyLNfJXhBtJ5A" name="Message &quot;Success&quot;" messageSort="reply" receiveEvent="_bu588F0hEeyLNfJXhBtJ5A" sendEvent="_bu4u0F0hEeyLNfJXhBtJ5A"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_cLaeEF22Eey6__jgBE_i2A" name="ViewBookings States">
+    <region xmi:type="uml:Region" xmi:id="_ehZeAF22Eey6__jgBE_i2A" name="Region1">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_AcBhsF29Eey6__jgBE_i2A">
+        <body>Customer State&#xD;
+</body>
+      </ownedComment>
+      <transition xmi:type="uml:Transition" xmi:id="_pmUKsF27Eey6__jgBE_i2A" name="Application.Start()" source="_mkZ1sF23Eey6__jgBE_i2A" target="_pfhjAF23Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_r9vVEF27Eey6__jgBE_i2A" name="ViewBookingsPage()" source="_pfhjAF23Eey6__jgBE_i2A" target="_PMGyMF26Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_udwawF27Eey6__jgBE_i2A" name="ActiveButton.Clicked" source="_PMGyMF26Eey6__jgBE_i2A" target="_WtBl8F26Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_0N7poF27Eey6__jgBE_i2A" name="PastButton.Clicked" source="_PMGyMF26Eey6__jgBE_i2A" target="_YVO54F26Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_2jjdMF27Eey6__jgBE_i2A" name="PastButton.Clicked" source="_WtBl8F26Eey6__jgBE_i2A" target="_YVO54F26Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_7B9iMF27Eey6__jgBE_i2A" name="ResetButton.Clicked" source="_WtBl8F26Eey6__jgBE_i2A" target="_PMGyMF26Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_-SuIUF27Eey6__jgBE_i2A" name="ResetButton.Clicked" source="_YVO54F26Eey6__jgBE_i2A" target="_PMGyMF26Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_CPKvwF28Eey6__jgBE_i2A" name="ActiveButton.Clicked" source="_YVO54F26Eey6__jgBE_i2A" target="_WtBl8F26Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_JEGnQF28Eey6__jgBE_i2A" name="Filter(SeatNum,Date)" source="_PMGyMF26Eey6__jgBE_i2A" target="_wTUqsF26Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Zpz1QF28Eey6__jgBE_i2A" name="ResetButton.Clicked" source="_wTUqsF26Eey6__jgBE_i2A" target="_PMGyMF26Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_eBeZEF28Eey6__jgBE_i2A" name="BackButton.Clicked" source="_PMGyMF26Eey6__jgBE_i2A" target="_pfhjAF23Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_gaVt4F28Eey6__jgBE_i2A" name="Application.Exit(0)" source="_pfhjAF23Eey6__jgBE_i2A" target="_5yhJAF26Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_QUFowF3MEey6__jgBE_i2A" source="_PMGyMF26Eey6__jgBE_i2A" target="_NyNfsF29Eey6__jgBE_i2A"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_mkZ1sF23Eey6__jgBE_i2A" name="Start"/>
+      <subvertex xmi:type="uml:State" xmi:id="_pfhjAF23Eey6__jgBE_i2A" name="Idle_MainPage"/>
+      <subvertex xmi:type="uml:State" xmi:id="_PMGyMF26Eey6__jgBE_i2A" name="Viewing_Bookings"/>
+      <subvertex xmi:type="uml:State" xmi:id="_WtBl8F26Eey6__jgBE_i2A" name="Viewing_active_only"/>
+      <subvertex xmi:type="uml:State" xmi:id="_YVO54F26Eey6__jgBE_i2A" name="Viewing_past_only"/>
+      <subvertex xmi:type="uml:State" xmi:id="_wTUqsF26Eey6__jgBE_i2A" name="Viewing_Filtered_Results"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_5yhJAF26Eey6__jgBE_i2A" name="End"/>
+    </region>
+    <region xmi:type="uml:Region" xmi:id="_-rSj4F28Eey6__jgBE_i2A" name="Region2">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_DYwYkF29Eey6__jgBE_i2A">
+        <body>DataGridView State</body>
+      </ownedComment>
+      <transition xmi:type="uml:Transition" xmi:id="_XKp1wF29Eey6__jgBE_i2A" name="DataGridView.Create()" source="_NyNfsF29Eey6__jgBE_i2A" target="_VdctEF29Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_fI10UF29Eey6__jgBE_i2A" name="DataGridView.Add(row)" source="_VdctEF29Eey6__jgBE_i2A" target="_dIFdgF29Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_j9nx8F29Eey6__jgBE_i2A" name="DataGridView.Add(row)" source="_dIFdgF29Eey6__jgBE_i2A" target="_dIFdgF29Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_3LbDkF29Eey6__jgBE_i2A" name="BackButton.Clicked" source="_dIFdgF29Eey6__jgBE_i2A" target="_QIEj0F29Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_8R1jwF29Eey6__jgBE_i2A" name="DataGridView.Clear()" source="_dIFdgF29Eey6__jgBE_i2A" target="_VdctEF29Eey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Bj_Z4F2-Eey6__jgBE_i2A" name="BackButton.Clicked" source="_VdctEF29Eey6__jgBE_i2A" target="_QIEj0F29Eey6__jgBE_i2A"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_NyNfsF29Eey6__jgBE_i2A" name="Start"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_QIEj0F29Eey6__jgBE_i2A" name="End"/>
+      <subvertex xmi:type="uml:State" xmi:id="_VdctEF29Eey6__jgBE_i2A" name="Empty"/>
+      <subvertex xmi:type="uml:State" xmi:id="_dIFdgF29Eey6__jgBE_i2A" name="Filled_with_tuples"/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_5muy8F2-Eey6__jgBE_i2A" name="Cancel Bookings States">
+    <region xmi:type="uml:Region" xmi:id="_7b6L4F2-Eey6__jgBE_i2A" name="Region1">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_UmlgEF3JEey6__jgBE_i2A">
+        <body>CustomerForm State&#xD;
+</body>
+      </ownedComment>
+      <transition xmi:type="uml:Transition" xmi:id="_dKRDQF3HEey6__jgBE_i2A" name="login()" source="_-ScscF3EEey6__jgBE_i2A" target="_ygK7wF3FEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_70hKEF3HEey6__jgBE_i2A" name="CancelSeatsButton.Clicked" source="_ygK7wF3FEey6__jgBE_i2A" target="_3RumQF3FEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_-_bm4F3HEey6__jgBE_i2A" name="DataGridView.Select(Current_row)" source="_3RumQF3FEey6__jgBE_i2A" target="_ivCv4F3GEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Muv2kF3IEey6__jgBE_i2A" name="FilterGrid(SeatNum, Date)" source="_3RumQF3FEey6__jgBE_i2A" target="_defcQF3GEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_tu76AF3IEey6__jgBE_i2A" name="DataGridView.Select(Current_row)" source="_defcQF3GEey6__jgBE_i2A" target="_ivCv4F3GEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_xE-BsF3IEey6__jgBE_i2A" name="DeleteQuery(current_row)" source="_ivCv4F3GEey6__jgBE_i2A" target="_tFzvYF3GEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_6803oF3IEey6__jgBE_i2A" name="BackButton.Clicked()" source="_tFzvYF3GEey6__jgBE_i2A" target="_ygK7wF3FEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_-aOyoF3IEey6__jgBE_i2A" name="BackButton.Clicked()" source="_3RumQF3FEey6__jgBE_i2A" target="_ygK7wF3FEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_FmIYoF3JEey6__jgBE_i2A" name="BackButton.Clicked()" source="_defcQF3GEey6__jgBE_i2A" target="_ygK7wF3FEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_KL64AF3JEey6__jgBE_i2A" name="BackButton.Clicked" source="_ivCv4F3GEey6__jgBE_i2A" target="_ygK7wF3FEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Q6UpsF3JEey6__jgBE_i2A" name="Logout()" source="_ygK7wF3FEey6__jgBE_i2A" target="__xEmkF3EEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_bGLSUF3MEey6__jgBE_i2A" source="_3RumQF3FEey6__jgBE_i2A" target="_oQNyEF3JEey6__jgBE_i2A"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_-ScscF3EEey6__jgBE_i2A" name="Start"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="__xEmkF3EEey6__jgBE_i2A" name="End"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ygK7wF3FEey6__jgBE_i2A" name="Idle_loggedin_MainPage"/>
+      <subvertex xmi:type="uml:State" xmi:id="_3RumQF3FEey6__jgBE_i2A" name="Viewing_cancellable_bookings"/>
+      <subvertex xmi:type="uml:State" xmi:id="_defcQF3GEey6__jgBE_i2A" name="Obtained_filtered_results"/>
+      <subvertex xmi:type="uml:State" xmi:id="_ivCv4F3GEey6__jgBE_i2A" name="Has_row_selected"/>
+      <subvertex xmi:type="uml:State" xmi:id="_tFzvYF3GEey6__jgBE_i2A" name="Has_less_bookings"/>
+    </region>
+    <region xmi:type="uml:Region" xmi:id="_YIjyAF3JEey6__jgBE_i2A" name="Region2">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_EruegF3MEey6__jgBE_i2A">
+        <body>DataGridView State&#xD;
+</body>
+      </ownedComment>
+      <transition xmi:type="uml:Transition" xmi:id="_hix0QF3KEey6__jgBE_i2A" name="DataGridView.Create()" source="_oQNyEF3JEey6__jgBE_i2A" target="_psxPoF3JEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_lpWoEF3KEey6__jgBE_i2A" name="DataGridView.Add(queried_row)" source="_psxPoF3JEey6__jgBE_i2A" target="_6VNBgF3JEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="___3BwF3KEey6__jgBE_i2A" name="DataViewGrid.Add(queried_row)" source="_6VNBgF3JEey6__jgBE_i2A" target="_6VNBgF3JEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_H2hcAF3LEey6__jgBE_i2A" name="DataGridView.Clear()" source="_6VNBgF3JEey6__jgBE_i2A" target="_psxPoF3JEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_T1hkoF3LEey6__jgBE_i2A" name="Select(current_row)" source="_6VNBgF3JEey6__jgBE_i2A" target="_PYc8YF3LEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_cfS20F3LEey6__jgBE_i2A" name="DataGridView.Remove(current_row)" source="_PYc8YF3LEey6__jgBE_i2A" target="_X-Q7oF3LEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_heOO8F3LEey6__jgBE_i2A" name="DeleteQuery(current_row) -> to database" source="_PYc8YF3LEey6__jgBE_i2A" target="_PYc8YF3LEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_x9RbUF3LEey6__jgBE_i2A" name="BackButton.Clicked" source="_X-Q7oF3LEey6__jgBE_i2A" target="_uIe7EF3LEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_0SyhMF3LEey6__jgBE_i2A" name="BackButton.Clicked" source="_psxPoF3JEey6__jgBE_i2A" target="_uIe7EF3LEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_3l0_QF3LEey6__jgBE_i2A" name="BackButton.Clicked" source="_PYc8YF3LEey6__jgBE_i2A" target="_uIe7EF3LEey6__jgBE_i2A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_9-rXsF3LEey6__jgBE_i2A" name="BackButton.Clicked" source="_6VNBgF3JEey6__jgBE_i2A" target="_uIe7EF3LEey6__jgBE_i2A"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_oQNyEF3JEey6__jgBE_i2A" name="Start"/>
+      <subvertex xmi:type="uml:State" xmi:id="_psxPoF3JEey6__jgBE_i2A" name="Empty"/>
+      <subvertex xmi:type="uml:State" xmi:id="_6VNBgF3JEey6__jgBE_i2A" name="Filled_with_tuples"/>
+      <subvertex xmi:type="uml:State" xmi:id="_PYc8YF3LEey6__jgBE_i2A" name="Grid_with_highlighted_tuple"/>
+      <subvertex xmi:type="uml:State" xmi:id="_X-Q7oF3LEey6__jgBE_i2A" name="One_less_tuple"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_uIe7EF3LEey6__jgBE_i2A" name="End"/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_onBLsF3NEeybdY2T0yJeuw" name="Book Events">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_qeobUF3SEeybdY2T0yJeuw" name="Click Events page">
+      <include xmi:type="uml:Include" xmi:id="_bZ17kF3UEeybdY2T0yJeuw" addition="_xqRioF3SEeybdY2T0yJeuw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xqRioF3SEeybdY2T0yJeuw" name="Create DataGridView">
+      <include xmi:type="uml:Include" xmi:id="_cP2WgF3UEeybdY2T0yJeuw" addition="_-ysxcF3SEeybdY2T0yJeuw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-ysxcF3SEeybdY2T0yJeuw" name="Send Query to Events Table">
+      <include xmi:type="uml:Include" xmi:id="_dyxh0F3UEeybdY2T0yJeuw" addition="_F8L8oF3TEeybdY2T0yJeuw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_F8L8oF3TEeybdY2T0yJeuw" name="Return active Events">
+      <include xmi:type="uml:Include" xmi:id="_fqBXUF3UEeybdY2T0yJeuw" addition="_GZegIF3UEeybdY2T0yJeuw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GZegIF3UEeybdY2T0yJeuw" name="Fill grid">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vPONwF3YEeybdY2T0yJeuw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hDaMIF3UEeybdY2T0yJeuw" name="Select Event">
+      <extend xmi:type="uml:Extend" xmi:id="_vPNmsF3YEeybdY2T0yJeuw" extendedCase="_GZegIF3UEeybdY2T0yJeuw" extensionLocation="_vPONwF3YEeybdY2T0yJeuw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_jYf0MF3UEeybdY2T0yJeuw" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_EWPnoF3VEeybdY2T0yJeuw" addition="_0O-CEF3UEeybdY2T0yJeuw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0O-CEF3UEeybdY2T0yJeuw" name="Fetch image/poster">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_spFR8V3YEeybdY2T0yJeuw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__QWr4F3UEeybdY2T0yJeuw" name="Display image">
+      <extend xmi:type="uml:Extend" xmi:id="_spFR8F3YEeybdY2T0yJeuw" extendedCase="_0O-CEF3UEeybdY2T0yJeuw" extensionLocation="_spFR8V3YEeybdY2T0yJeuw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_BiqFsF3VEeybdY2T0yJeuw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Dx42AF3YEeybdY2T0yJeuw" name="Book selected event">
+      <include xmi:type="uml:Include" xmi:id="_YCC8gF3YEeybdY2T0yJeuw" addition="_Q8bksF3YEeybdY2T0yJeuw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Q8bksF3YEeybdY2T0yJeuw" name="show available seats">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_wivrIF3YEeybdY2T0yJeuw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xKJCUF3YEeybdY2T0yJeuw" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_d7MhMF3YEeybdY2T0yJeuw" name="Select seats">
+      <extend xmi:type="uml:Extend" xmi:id="_wivEEF3YEeybdY2T0yJeuw" extendedCase="_Q8bksF3YEeybdY2T0yJeuw" extensionLocation="_wivrIF3YEeybdY2T0yJeuw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_jCcH0F3YEeybdY2T0yJeuw" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_E07x8F3ZEeybdY2T0yJeuw" addition="_AkwWMF3ZEeybdY2T0yJeuw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kqN98F3YEeybdY2T0yJeuw" name="auto select seats">
+      <extend xmi:type="uml:Extend" xmi:id="_xKH0MF3YEeybdY2T0yJeuw" extendedCase="_Q8bksF3YEeybdY2T0yJeuw" extensionLocation="_xKJCUF3YEeybdY2T0yJeuw"/>
+      <include xmi:type="uml:Include" xmi:id="_ER4vQF3ZEeybdY2T0yJeuw" addition="_AkwWMF3ZEeybdY2T0yJeuw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AkwWMF3ZEeybdY2T0yJeuw" name="Send booking query">
+      <include xmi:type="uml:Include" xmi:id="_Y2sQEF3ZEeybdY2T0yJeuw" addition="_QXU3EF3ZEeybdY2T0yJeuw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QXU3EF3ZEeybdY2T0yJeuw" name="Add booking to DB"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EWx3UF3OEeybdY2T0yJeuw" name="Customer"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_GAJB0F3OEeybdY2T0yJeuw" name="Booking System"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HWyrsF3OEeybdY2T0yJeuw" name="Database"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KxdNAF3UEeybdY2T0yJeuw" name="Customer goes to Events tab" memberEnd="_Kxlv4F3UEeybdY2T0yJeuw _Kxm-AF3UEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KxjToF3UEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Kxj6sF3UEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Kxlv4F3UEeybdY2T0yJeuw" name="click events page" type="_qeobUF3SEeybdY2T0yJeuw" association="_KxdNAF3UEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Kxm-AF3UEeybdY2T0yJeuw" name="customer" type="_EWx3UF3OEeybdY2T0yJeuw" association="_KxdNAF3UEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NnwEsF3UEeybdY2T0yJeuw" name="System creates new grid" memberEnd="_Nnx54V3UEeybdY2T0yJeuw _NnzIAF3UEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NnxS0F3UEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Nnx54F3UEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Nnx54V3UEeybdY2T0yJeuw" name="create datagridview" type="_xqRioF3SEeybdY2T0yJeuw" association="_NnwEsF3UEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NnzIAF3UEeybdY2T0yJeuw" name="booking system" type="_GAJB0F3OEeybdY2T0yJeuw" association="_NnwEsF3UEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_P9nv4F3UEeybdY2T0yJeuw" name="System quries the database" memberEnd="_P9o-Al3UEeybdY2T0yJeuw _P9o-A13UEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_P9o-AF3UEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_P9o-AV3UEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_P9o-Al3UEeybdY2T0yJeuw" name="booking system" type="_GAJB0F3OEeybdY2T0yJeuw" association="_P9nv4F3UEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_P9o-A13UEeybdY2T0yJeuw" name="send query to events table" type="_-ysxcF3SEeybdY2T0yJeuw" association="_P9nv4F3UEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_S-sUMF3UEeybdY2T0yJeuw" name="Database returns tuples" memberEnd="_S-tiUl3UEeybdY2T0yJeuw _S-uJYF3UEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S-tiUF3UEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_S-tiUV3UEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_S-tiUl3UEeybdY2T0yJeuw" name="return active events" type="_F8L8oF3TEeybdY2T0yJeuw" association="_S-sUMF3UEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_S-uJYF3UEeybdY2T0yJeuw" name="database" type="_HWyrsF3OEeybdY2T0yJeuw" association="_S-sUMF3UEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XVswsF3UEeybdY2T0yJeuw" name="System fills the grid with returned tuples" memberEnd="_XVul4F3UEeybdY2T0yJeuw _XVul4V3UEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XVt-0F3UEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XVt-0V3UEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XVul4F3UEeybdY2T0yJeuw" name="fill grid" type="_GZegIF3UEeybdY2T0yJeuw" association="_XVswsF3UEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XVul4V3UEeybdY2T0yJeuw" name="booking system" type="_GAJB0F3OEeybdY2T0yJeuw" association="_XVswsF3UEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_u_UtYF3UEeybdY2T0yJeuw" name="Customer chooses event" memberEnd="_u_WikF3UEeybdY2T0yJeuw _u_WikV3UEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u_V7gF3UEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u_V7gV3UEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u_WikF3UEeybdY2T0yJeuw" name="select event" type="_hDaMIF3UEeybdY2T0yJeuw" association="_u_UtYF3UEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u_WikV3UEeybdY2T0yJeuw" name="customer" type="_EWx3UF3OEeybdY2T0yJeuw" association="_u_UtYF3UEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4k_AEF3UEeybdY2T0yJeuw" name="System fetches and shows image" memberEnd="_4k_nIV3UEeybdY2T0yJeuw _4k_nIl3UEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4k_AEV3UEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4k_nIF3UEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4k_nIV3UEeybdY2T0yJeuw" name="booking system" type="_GAJB0F3OEeybdY2T0yJeuw" association="_4k_AEF3UEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4k_nIl3UEeybdY2T0yJeuw" name="fetch image/poster" type="_0O-CEF3UEeybdY2T0yJeuw" association="_4k_AEF3UEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_F2OFQF3YEeybdY2T0yJeuw" name="Customer books event" memberEnd="_F2P6cF3YEeybdY2T0yJeuw _F2P6cV3YEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F2PTYF3YEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F2PTYV3YEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_F2P6cF3YEeybdY2T0yJeuw" name="customer" type="_EWx3UF3OEeybdY2T0yJeuw" association="_F2OFQF3YEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_F2P6cV3YEeybdY2T0yJeuw" name="book selected event" type="_Dx42AF3YEeybdY2T0yJeuw" association="_F2OFQF3YEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fZgSQF3YEeybdY2T0yJeuw" name="Customer selects seats" memberEnd="_fZiHcV3YEeybdY2T0yJeuw _fZiugF3YEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fZhgYF3YEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fZiHcF3YEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fZiHcV3YEeybdY2T0yJeuw" name="customer" type="_EWx3UF3OEeybdY2T0yJeuw" association="_fZgSQF3YEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fZiugF3YEeybdY2T0yJeuw" name="select seats" type="_d7MhMF3YEeybdY2T0yJeuw" association="_fZgSQF3YEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nDp6gF3YEeybdY2T0yJeuw" name="System picks seats randomly" memberEnd="_nDrIol3YEeybdY2T0yJeuw _nDrvsF3YEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nDrIoF3YEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nDrIoV3YEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nDrIol3YEeybdY2T0yJeuw" name="booking system" type="_GAJB0F3OEeybdY2T0yJeuw" association="_nDp6gF3YEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nDrvsF3YEeybdY2T0yJeuw" name="auto select seats" type="_kqN98F3YEeybdY2T0yJeuw" association="_nDp6gF3YEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KFklIF3ZEeybdY2T0yJeuw" name="System makes query" memberEnd="_KFlzQl3ZEeybdY2T0yJeuw _KFmaUF3ZEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KFlzQF3ZEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KFlzQV3ZEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KFlzQl3ZEeybdY2T0yJeuw" name="booking system" type="_GAJB0F3OEeybdY2T0yJeuw" association="_KFklIF3ZEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KFmaUF3ZEeybdY2T0yJeuw" name="send booking query" type="_AkwWMF3ZEeybdY2T0yJeuw" association="_KFklIF3ZEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VoMTwF3ZEeybdY2T0yJeuw" name="Adds tuple to DB" memberEnd="_VoNh4V3ZEeybdY2T0yJeuw _VoNh4l3ZEeybdY2T0yJeuw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VoM60F3ZEeybdY2T0yJeuw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VoNh4F3ZEeybdY2T0yJeuw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VoNh4V3ZEeybdY2T0yJeuw" name="database" type="_HWyrsF3OEeybdY2T0yJeuw" association="_VoMTwF3ZEeybdY2T0yJeuw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VoNh4l3ZEeybdY2T0yJeuw" name="add booking to db" type="_QXU3EF3ZEeybdY2T0yJeuw" association="_VoMTwF3ZEeybdY2T0yJeuw"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jUf3F12qEeyERdJWJTMIuQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jUpBAF2qEeyERdJWJTMIuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
 </uml:Model>
