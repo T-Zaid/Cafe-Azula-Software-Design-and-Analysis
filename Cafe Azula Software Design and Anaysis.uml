@@ -1432,6 +1432,114 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_XwiC0F3lEey-t4uW1qpqIw" name="ranking system" type="_96bc8F3jEey-t4uW1qpqIw" association="_XweYcF3lEey-t4uW1qpqIw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Xwip4F3lEey-t4uW1qpqIw" name="clear grid" type="_V0mhoF3lEey-t4uW1qpqIw" association="_XweYcF3lEey-t4uW1qpqIw"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_OWzzAF3oEeyoU-Jelrj2sA" name="Add Game">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Z6yzkF3oEeyoU-Jelrj2sA" name="Enter Game management">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_hm8KcF3pEeyoU-Jelrj2sA" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_gA2y4F3oEeyoU-Jelrj2sA" name="Add Games">
+      <extend xmi:type="uml:Extend" xmi:id="_hm5uMF3pEeyoU-Jelrj2sA" extendedCase="_Z6yzkF3oEeyoU-Jelrj2sA" extensionLocation="_hm8KcF3pEeyoU-Jelrj2sA"/>
+      <include xmi:type="uml:Include" xmi:id="_ivtJUF3pEeyoU-Jelrj2sA" addition="_kYEDsF3oEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kYEDsF3oEeyoU-Jelrj2sA" name="Create Game Insertion tab">
+      <include xmi:type="uml:Include" xmi:id="_keaG0F3pEeyoU-Jelrj2sA" addition="_sIi9cF3oEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sIi9cF3oEeyoU-Jelrj2sA" name="Switch tabs">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yum2AF3pEeyoU-Jelrj2sA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_zjAucF3pEeyoU-Jelrj2sA" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vG9PUF3oEeyoU-Jelrj2sA" name="Enter Game Information">
+      <extend xmi:type="uml:Extend" xmi:id="_zjAHYF3pEeyoU-Jelrj2sA" extendedCase="_sIi9cF3oEeyoU-Jelrj2sA" extensionLocation="_zjAucF3pEeyoU-Jelrj2sA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_8WNCYF3pEeyoU-Jelrj2sA" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9A3wAF3pEeyoU-Jelrj2sA" name="ExtensionPoint3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0yQlQF3oEeyoU-Jelrj2sA" name="Register Game">
+      <extend xmi:type="uml:Extend" xmi:id="_8WL0QF3pEeyoU-Jelrj2sA" extendedCase="_vG9PUF3oEeyoU-Jelrj2sA" extensionLocation="_8WNCYF3pEeyoU-Jelrj2sA"/>
+      <include xmi:type="uml:Include" xmi:id="_DroX0F3qEeyoU-Jelrj2sA" addition="_4uJMAF3oEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2EqBQF3oEeyoU-Jelrj2sA" name="Back">
+      <extend xmi:type="uml:Extend" xmi:id="_yuln4F3pEeyoU-Jelrj2sA" extendedCase="_sIi9cF3oEeyoU-Jelrj2sA" extensionLocation="_yum2AF3pEeyoU-Jelrj2sA"/>
+      <extend xmi:type="uml:Extend" xmi:id="_9A3I8F3pEeyoU-Jelrj2sA" extendedCase="_vG9PUF3oEeyoU-Jelrj2sA" extensionLocation="_9A3wAF3pEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4uJMAF3oEeyoU-Jelrj2sA" name="Create query with input data">
+      <include xmi:type="uml:Include" xmi:id="_KsiOwF3qEeyoU-Jelrj2sA" addition="__hERUF3oEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9Fql4F3oEeyoU-Jelrj2sA" name="Generate GameID (primary key)">
+      <extend xmi:type="uml:Extend" xmi:id="_M0EjAF3qEeyoU-Jelrj2sA" extendedCase="__hERUF3oEeyoU-Jelrj2sA" extensionLocation="_M0FxIF3qEeyoU-Jelrj2sA"/>
+      <include xmi:type="uml:Include" xmi:id="_hJ7o4F3qEeyoU-Jelrj2sA" addition="_J7S0gF3pEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__hERUF3oEeyoU-Jelrj2sA" name="Run query">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_L3_8UF3qEeyoU-Jelrj2sA" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_M0FxIF3qEeyoU-Jelrj2sA" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_J7S0gF3pEeyoU-Jelrj2sA" name="Successfully inserted">
+      <include xmi:type="uml:Include" xmi:id="_iCm9UF3qEeyoU-Jelrj2sA" addition="_dRnTgF3qEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_N7WwoF3pEeyoU-Jelrj2sA" name="Error! Already exists">
+      <extend xmi:type="uml:Extend" xmi:id="_L3_VQF3qEeyoU-Jelrj2sA" extendedCase="__hERUF3oEeyoU-Jelrj2sA" extensionLocation="_L3_8UF3qEeyoU-Jelrj2sA"/>
+      <include xmi:type="uml:Include" xmi:id="_VdWtAF3qEeyoU-Jelrj2sA" addition="_SeUwEF3qEeyoU-Jelrj2sA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SeUwEF3qEeyoU-Jelrj2sA" name="Display Error Message"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dRnTgF3qEeyoU-Jelrj2sA" name="Display Success Message"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_PdCbQF3oEeyoU-Jelrj2sA" name="Staff/Employee"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_URu5UF3oEeyoU-Jelrj2sA" name="Data Management System"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Xx2KEF3oEeyoU-Jelrj2sA" name="Database"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aDyiEF3pEeyoU-Jelrj2sA" name="Employee clicks Game management" memberEnd="_aD3akF3pEeyoU-Jelrj2sA _aD4BoF3pEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aD2McF3pEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aD2McV3pEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aD3akF3pEeyoU-Jelrj2sA" name="staff/employee" type="_PdCbQF3oEeyoU-Jelrj2sA" association="_aDyiEF3pEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aD4BoF3pEeyoU-Jelrj2sA" name="enter game management" type="_Z6yzkF3oEeyoU-Jelrj2sA" association="_aDyiEF3pEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dH2wAF3pEeyoU-Jelrj2sA" name="Employee choses to insert new game" memberEnd="_dH5zUF3pEeyoU-Jelrj2sA _dH5zUV3pEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dH4lMF3pEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dH5MQF3pEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dH5zUF3pEeyoU-Jelrj2sA" name="employee clicks game management" type="_PdCbQF3oEeyoU-Jelrj2sA" association="_dH2wAF3pEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dH5zUV3pEeyoU-Jelrj2sA" name="add games" type="_gA2y4F3oEeyoU-Jelrj2sA" association="_dH2wAF3pEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_l1dZUF3pEeyoU-Jelrj2sA" name="System makes and switches tab" memberEnd="_l1f1kF3pEeyoU-Jelrj2sA _l1f1kV3pEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l1fOgF3pEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l1fOgV3pEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l1f1kF3pEeyoU-Jelrj2sA" name="create game insertion tab" type="_kYEDsF3oEeyoU-Jelrj2sA" association="_l1dZUF3pEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_l1f1kV3pEeyoU-Jelrj2sA" name="data management system" type="_URu5UF3oEeyoU-Jelrj2sA" association="_l1dZUF3pEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0cSf0F3pEeyoU-Jelrj2sA" name="Employee enters game info" memberEnd="_0cU8EF3pEeyoU-Jelrj2sA _0cVjIF3pEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0cUVAF3pEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0cUVAV3pEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0cU8EF3pEeyoU-Jelrj2sA" name="staff/employee" type="_PdCbQF3oEeyoU-Jelrj2sA" association="_0cSf0F3pEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0cVjIF3pEeyoU-Jelrj2sA" name="enter game information" type="_vG9PUF3oEeyoU-Jelrj2sA" association="_0cSf0F3pEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_El5AoF3qEeyoU-Jelrj2sA" name="System creates query for DB" memberEnd="_El610V3qEeyoU-Jelrj2sA _El610l3qEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_El6OwF3qEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_El610F3qEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_El610V3qEeyoU-Jelrj2sA" name="data management system" type="_URu5UF3oEeyoU-Jelrj2sA" association="_El5AoF3qEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_El610l3qEeyoU-Jelrj2sA" name="create query with input data" type="_4uJMAF3oEeyoU-Jelrj2sA" association="_El5AoF3qEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QFeCUF3qEeyoU-Jelrj2sA" name="DB runs query" memberEnd="_QFf3gl3qEeyoU-Jelrj2sA _QFgekF3qEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QFf3gF3qEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QFf3gV3qEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QFf3gl3qEeyoU-Jelrj2sA" name="database" type="_Xx2KEF3oEeyoU-Jelrj2sA" association="_QFeCUF3qEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QFgekF3qEeyoU-Jelrj2sA" name="run query" type="__hERUF3oEeyoU-Jelrj2sA" association="_QFeCUF3qEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jFNCwF3qEeyoU-Jelrj2sA" name="System gives error box" memberEnd="_jFPfAV3qEeyoU-Jelrj2sA _jFPfAl3qEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jFO38F3qEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jFPfAF3qEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jFPfAV3qEeyoU-Jelrj2sA" name="data management system" type="_URu5UF3oEeyoU-Jelrj2sA" association="_jFNCwF3qEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jFPfAl3qEeyoU-Jelrj2sA" name="display error message" type="_SeUwEF3qEeyoU-Jelrj2sA" association="_jFNCwF3qEeyoU-Jelrj2sA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nBTE4F3qEeyoU-Jelrj2sA" name="System gives success box" memberEnd="_nBUTAl3qEeyoU-Jelrj2sA _nBU6EF3qEeyoU-Jelrj2sA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nBUTAF3qEeyoU-Jelrj2sA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nBUTAV3qEeyoU-Jelrj2sA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nBUTAl3qEeyoU-Jelrj2sA" name="data management system" type="_URu5UF3oEeyoU-Jelrj2sA" association="_nBTE4F3qEeyoU-Jelrj2sA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nBU6EF3qEeyoU-Jelrj2sA" name="display success message" type="_dRnTgF3qEeyoU-Jelrj2sA" association="_nBTE4F3qEeyoU-Jelrj2sA"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jUf3F12qEeyERdJWJTMIuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jUpBAF2qEeyERdJWJTMIuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
