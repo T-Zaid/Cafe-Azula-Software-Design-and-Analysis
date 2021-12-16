@@ -1781,6 +1781,128 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_nZgGEF6FEeyH3IU5D9d37w" name="accept" type="_vIC7kF6EEeyH3IU5D9d37w" association="_nZdp0F6FEeyH3IU5D9d37w"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_nZgGEV6FEeyH3IU5D9d37w" name="staff/employee" type="_AbYasF58EeyH3IU5D9d37w" association="_nZdp0F6FEeyH3IU5D9d37w"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_iQt1EF6KEeyH3IU5D9d37w" name="Delete Seats">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8xgMIF6KEeyH3IU5D9d37w" name="Go to Seat management">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_sCfiEF6TEeyH3IU5D9d37w" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ugRTcF6QEeyH3IU5D9d37w" name="Delete seats">
+      <extend xmi:type="uml:Extend" xmi:id="_sCe7AF6TEeyH3IU5D9d37w" extendedCase="_8xgMIF6KEeyH3IU5D9d37w" extensionLocation="_sCfiEF6TEeyH3IU5D9d37w"/>
+      <include xmi:type="uml:Include" xmi:id="_s_-eAF6TEeyH3IU5D9d37w" addition="_xfSpUF6QEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xfSpUF6QEeyH3IU5D9d37w" name="Create seat table/grid">
+      <include xmi:type="uml:Include" xmi:id="_tng_IF6TEeyH3IU5D9d37w" addition="_zCUiUF6QEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zCUiUF6QEeyH3IU5D9d37w" name="Query database for seats">
+      <include xmi:type="uml:Include" xmi:id="_ubVowF6TEeyH3IU5D9d37w" addition="_0YhgQF6QEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_0YhgQF6QEeyH3IU5D9d37w" name="Return seat tuples">
+      <include xmi:type="uml:Include" xmi:id="_yt9UgF6TEeyH3IU5D9d37w" addition="_2wnZAF6QEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2wnZAF6QEeyH3IU5D9d37w" name="Fill grid"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-6qCQF6QEeyH3IU5D9d37w" name="Select seat row">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0A8mYF6TEeyH3IU5D9d37w" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_2hdbUF6TEeyH3IU5D9d37w" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BRz08F6TEeyH3IU5D9d37w" name="Backout">
+      <extend xmi:type="uml:Extend" xmi:id="_0A7_UF6TEeyH3IU5D9d37w" extendedCase="_-6qCQF6QEeyH3IU5D9d37w" extensionLocation="_0A8mYF6TEeyH3IU5D9d37w"/>
+      <extend xmi:type="uml:Extend" xmi:id="_3IqlQF6TEeyH3IU5D9d37w" extendedCase="_EuiagF6TEeyH3IU5D9d37w" extensionLocation="_3IrMUF6TEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DKf04F6TEeyH3IU5D9d37w" name="delete selected seat">
+      <extend xmi:type="uml:Extend" xmi:id="_2hc0QF6TEeyH3IU5D9d37w" extendedCase="_-6qCQF6QEeyH3IU5D9d37w" extensionLocation="_2hdbUF6TEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EuiagF6TEeyH3IU5D9d37w" name="Confirmation prompt">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_05UY0F6TEeyH3IU5D9d37w" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_3IrMUF6TEeyH3IU5D9d37w" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_6AFeUF6TEeyH3IU5D9d37w" addition="_KJVPQF6TEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HkIHkF6TEeyH3IU5D9d37w" name="Agree">
+      <extend xmi:type="uml:Extend" xmi:id="_05TxwF6TEeyH3IU5D9d37w" extendedCase="_EuiagF6TEeyH3IU5D9d37w" extensionLocation="_05UY0F6TEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KJVPQF6TEeyH3IU5D9d37w" name="Send Deletion query">
+      <include xmi:type="uml:Include" xmi:id="_6jlM8F6TEeyH3IU5D9d37w" addition="_MeSUcF6TEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MeSUcF6TEeyH3IU5D9d37w" name="Delete seat tuple"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_koasQF6KEeyH3IU5D9d37w" name="Staff/Employee"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_l5FC4F6KEeyH3IU5D9d37w" name="Seats Management system"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_trgdYF6KEeyH3IU5D9d37w" name="Database"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PadxsF6TEeyH3IU5D9d37w" name="Staff acceses seat management system" memberEnd="_Pae_0l6TEeyH3IU5D9d37w _Pae_016TEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pae_0F6TEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pae_0V6TEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Pae_0l6TEeyH3IU5D9d37w" name="go to seat management" type="_8xgMIF6KEeyH3IU5D9d37w" association="_PadxsF6TEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Pae_016TEeyH3IU5D9d37w" name="staff/employee" type="_koasQF6KEeyH3IU5D9d37w" association="_PadxsF6TEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SNi9UF6TEeyH3IU5D9d37w" name="Staff selects to delete" memberEnd="_SNkLcV6TEeyH3IU5D9d37w _SNkLcl6TEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SNjkYF6TEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SNkLcF6TEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SNkLcV6TEeyH3IU5D9d37w" name="staff/employee" type="_koasQF6KEeyH3IU5D9d37w" association="_SNi9UF6TEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SNkLcl6TEeyH3IU5D9d37w" name="delete seats" type="_ugRTcF6QEeyH3IU5D9d37w" association="_SNi9UF6TEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VhBgQF6TEeyH3IU5D9d37w" name="Staff selects a row" memberEnd="_VhDVcV6TEeyH3IU5D9d37w _VhD8gF6TEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VhCuYF6TEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VhDVcF6TEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VhDVcV6TEeyH3IU5D9d37w" name="select seat row" type="_-6qCQF6QEeyH3IU5D9d37w" association="_VhBgQF6TEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VhD8gF6TEeyH3IU5D9d37w" name="staff selects to delete" type="_koasQF6KEeyH3IU5D9d37w" association="_VhBgQF6TEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XwLfcF6TEeyH3IU5D9d37w" name="Staff clicks delete button" memberEnd="_XwNUoF6TEeyH3IU5D9d37w _XwNUoV6TEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XwMtkF6TEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XwMtkV6TEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XwNUoF6TEeyH3IU5D9d37w" name="staff/employee" type="_koasQF6KEeyH3IU5D9d37w" association="_XwLfcF6TEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XwNUoV6TEeyH3IU5D9d37w" name="delete selected seat" type="_DKf04F6TEeyH3IU5D9d37w" association="_XwLfcF6TEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z2_a8F6TEeyH3IU5D9d37w" name="System creates table" memberEnd="_Z3ACAl6TEeyH3IU5D9d37w _Z3ACA16TEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z3ACAF6TEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Z3ACAV6TEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z3ACAl6TEeyH3IU5D9d37w" name="seats management system" type="_l5FC4F6KEeyH3IU5D9d37w" association="_Z2_a8F6TEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z3ACA16TEeyH3IU5D9d37w" name="create seat table/grid" type="_xfSpUF6QEeyH3IU5D9d37w" association="_Z2_a8F6TEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bPNyIF6TEeyH3IU5D9d37w" name="System makes select query" memberEnd="_bPPAQl6TEeyH3IU5D9d37w _bPPAQ16TEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bPPAQF6TEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bPPAQV6TEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bPPAQl6TEeyH3IU5D9d37w" name="query database for seats" type="_zCUiUF6QEeyH3IU5D9d37w" association="_bPNyIF6TEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bPPAQ16TEeyH3IU5D9d37w" name="seats management system" type="_l5FC4F6KEeyH3IU5D9d37w" association="_bPNyIF6TEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dQNZgF6TEeyH3IU5D9d37w" name="System fills table" memberEnd="_dQOnoF6TEeyH3IU5D9d37w _dQOnoV6TEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dQOAkF6TEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dQOAkV6TEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dQOnoF6TEeyH3IU5D9d37w" name="fill grid" type="_2wnZAF6QEeyH3IU5D9d37w" association="_dQNZgF6TEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dQOnoV6TEeyH3IU5D9d37w" name="seats management system" type="_l5FC4F6KEeyH3IU5D9d37w" association="_dQNZgF6TEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hLXAcF6TEeyH3IU5D9d37w" name="System asks for confirmation" memberEnd="_hLYOkl6TEeyH3IU5D9d37w _hLYOk16TEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hLYOkF6TEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hLYOkV6TEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hLYOkl6TEeyH3IU5D9d37w" name="seats management system" type="_l5FC4F6KEeyH3IU5D9d37w" association="_hLXAcF6TEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hLYOk16TEeyH3IU5D9d37w" name="confirmation prompt" type="_EuiagF6TEeyH3IU5D9d37w" association="_hLXAcF6TEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jOJXkF6TEeyH3IU5D9d37w" name="System makes delete query" memberEnd="_jOKlsF6TEeyH3IU5D9d37w _jOKlsV6TEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jOJ-oF6TEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jOJ-oV6TEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jOKlsF6TEeyH3IU5D9d37w" name="seats management system" type="_l5FC4F6KEeyH3IU5D9d37w" association="_jOJXkF6TEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jOKlsV6TEeyH3IU5D9d37w" name="send deletion query" type="_KJVPQF6TEeyH3IU5D9d37w" association="_jOJXkF6TEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lgoXkF6TEeyH3IU5D9d37w" name="database returns tuples" memberEnd="_lgo-ol6TEeyH3IU5D9d37w _lgplsF6TEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lgo-oF6TEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lgo-oV6TEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lgo-ol6TEeyH3IU5D9d37w" name="return seat tuples" type="_0YhgQF6QEeyH3IU5D9d37w" association="_lgoXkF6TEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lgplsF6TEeyH3IU5D9d37w" name="database" type="_trgdYF6KEeyH3IU5D9d37w" association="_lgoXkF6TEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ohp4kF6TEeyH3IU5D9d37w" name="database deletes tuple" memberEnd="_ohrGsl6TEeyH3IU5D9d37w _ohrtwF6TEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ohrGsF6TEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ohrGsV6TEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ohrGsl6TEeyH3IU5D9d37w" name="delete seat tuple" type="_MeSUcF6TEeyH3IU5D9d37w" association="_ohp4kF6TEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ohrtwF6TEeyH3IU5D9d37w" name="database" type="_trgdYF6KEeyH3IU5D9d37w" association="_ohp4kF6TEeyH3IU5D9d37w"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jUf3F12qEeyERdJWJTMIuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jUpBAF2qEeyERdJWJTMIuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
