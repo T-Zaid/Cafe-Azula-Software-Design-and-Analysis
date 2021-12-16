@@ -644,7 +644,6 @@
         </guard>
       </operand>
       <operand xmi:type="uml:InteractionOperand" xmi:id="_RAcKkFzeEeykKJwenpQs_w" name="InteractionOperand2" covered="_9Vn3sFzbEeykKJwenpQs_w _-X3UoFzXEeykKJwenpQs_w _843AAFzXEeykKJwenpQs_w _7MBqwFzXEeykKJwenpQs_w">
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MLzkoFzjEeykKJwenpQs_w" name="Message37SendEvent" covered="_7MBqwFzXEeykKJwenpQs_w" message="_MLyWgFzjEeykKJwenpQs_w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ML0LsFzjEeykKJwenpQs_w" name="Message37ReceiveEvent" covered="_843AAFzXEeykKJwenpQs_w" message="_MLyWgFzjEeykKJwenpQs_w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RBSs4FzjEeykKJwenpQs_w" name="Message38SendEvent" covered="_843AAFzXEeykKJwenpQs_w" message="_RBQ3sFzjEeykKJwenpQs_w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T4CQgFzjEeykKJwenpQs_w" name="Message39SendEvent" covered="_843AAFzXEeykKJwenpQs_w" message="_T4AbUFzjEeykKJwenpQs_w"/>
@@ -654,7 +653,6 @@
         </guard>
       </operand>
       <operand xmi:type="uml:InteractionOperand" xmi:id="_YIH-8FzeEeykKJwenpQs_w" name="InteractionOperand3" covered="_9Vn3sFzbEeykKJwenpQs_w _-X3UoFzXEeykKJwenpQs_w _843AAFzXEeykKJwenpQs_w _7MBqwFzXEeykKJwenpQs_w">
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eIMRsFzjEeykKJwenpQs_w" name="Message41SendEvent" covered="_7MBqwFzXEeykKJwenpQs_w" message="_eILDkFzjEeykKJwenpQs_w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eIM4wFzjEeykKJwenpQs_w" name="Message41ReceiveEvent" covered="_843AAFzXEeykKJwenpQs_w" message="_eILDkFzjEeykKJwenpQs_w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tFBdYFzjEeykKJwenpQs_w" name="Message44SendEvent" covered="_843AAFzXEeykKJwenpQs_w" message="_tE_oMFzjEeykKJwenpQs_w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_tFCrgFzjEeykKJwenpQs_w" name="Message44ReceiveEvent" covered="_-X3UoFzXEeykKJwenpQs_w" message="_tE_oMFzjEeykKJwenpQs_w"/>
@@ -664,7 +662,6 @@
         </guard>
       </operand>
       <operand xmi:type="uml:InteractionOperand" xmi:id="_a1kcoFzeEeykKJwenpQs_w" name="InteractionOperand4" covered="_9Vn3sFzbEeykKJwenpQs_w _-X3UoFzXEeykKJwenpQs_w _843AAFzXEeykKJwenpQs_w _7MBqwFzXEeykKJwenpQs_w">
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MuIZIFzkEeykKJwenpQs_w" name="Message41SendEvent" covered="_7MBqwFzXEeykKJwenpQs_w" message="_MuHLAFzkEeykKJwenpQs_w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MuJnQFzkEeykKJwenpQs_w" name="Message41ReceiveEvent" covered="_843AAFzXEeykKJwenpQs_w" message="_MuHLAFzkEeykKJwenpQs_w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_inc10FzkEeykKJwenpQs_w" name="Message43SendEvent" covered="_843AAFzXEeykKJwenpQs_w" message="_inbnsFzkEeykKJwenpQs_w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_indc4FzkEeykKJwenpQs_w" name="Message43ReceiveEvent" covered="_-X3UoFzXEeykKJwenpQs_w" message="_inbnsFzkEeykKJwenpQs_w"/>
@@ -673,6 +670,9 @@
         </guard>
       </operand>
     </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MLzkoFzjEeykKJwenpQs_w" name="Message37SendEvent" covered="_7MBqwFzXEeykKJwenpQs_w" message="_MLyWgFzjEeykKJwenpQs_w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eIMRsFzjEeykKJwenpQs_w" name="Message41SendEvent" covered="_7MBqwFzXEeykKJwenpQs_w" message="_eILDkFzjEeykKJwenpQs_w"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MuIZIFzkEeykKJwenpQs_w" name="Message41SendEvent" covered="_7MBqwFzXEeykKJwenpQs_w" message="_MuHLAFzkEeykKJwenpQs_w"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_sFlvwFzaEeykKJwenpQs_w" name="ActionExecutionSpecification4Finish" covered="_7MBqwFzXEeykKJwenpQs_w" execution="_sFheUFzaEeykKJwenpQs_w"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_44wY4FzdEeykKJwenpQs_w" name="Message24ReceiveEvent" covered="_843AAFzXEeykKJwenpQs_w" message="_44ujsFzdEeykKJwenpQs_w"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gO-mwFzdEeykKJwenpQs_w" name="Message16SendEvent" covered="_843AAFzXEeykKJwenpQs_w" message="_gO9YoFzdEeykKJwenpQs_w"/>
@@ -929,20 +929,14 @@
         </guard>
       </operand>
       <operand xmi:type="uml:InteractionOperand" xmi:id="_hCbW8F0fEeyLNfJXhBtJ5A" name="InteractionOperand2" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A">
-        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_caDTEF0eEeyLNfJXhBtJ5A" name="ActionExecutionSpecification8Finish" covered="_2DYTIF0dEeyLNfJXhBtJ5A" execution="_caBd4F0eEeyLNfJXhBtJ5A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YIdFkF0fEeyLNfJXhBtJ5A" name="Message26SendEvent" covered="_9B16EF0dEeyLNfJXhBtJ5A" message="_YIb3cF0fEeyLNfJXhBtJ5A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YIdsoF0fEeyLNfJXhBtJ5A" name="Message26ReceiveEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_YIb3cF0fEeyLNfJXhBtJ5A"/>
         <guard xmi:type="uml:InteractionConstraint" xmi:id="_hCdMIF0fEeyLNfJXhBtJ5A" name="guard"/>
       </operand>
     </fragment>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_caDTEF0eEeyLNfJXhBtJ5A" name="ActionExecutionSpecification8Finish" covered="_2DYTIF0dEeyLNfJXhBtJ5A" execution="_caBd4F0eEeyLNfJXhBtJ5A"/>
     <fragment xmi:type="uml:CombinedFragment" xmi:id="_wy4_AF0fEeyLNfJXhBtJ5A" name="CombinedFragment27" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A" interactionOperator="alt">
       <operand xmi:type="uml:InteractionOperand" xmi:id="_wy5mEF0fEeyLNfJXhBtJ5A" name="InteractionOperand0" covered="_9B16EF0dEeyLNfJXhBtJ5A _JY_c8F0eEeyLNfJXhBtJ5A _2DYTIF0dEeyLNfJXhBtJ5A _ynrBQF0dEeyLNfJXhBtJ5A">
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FyZe0F0gEeyLNfJXhBtJ5A" name="Message28SendEvent" covered="_ynrBQF0dEeyLNfJXhBtJ5A" message="_FyV0cF0gEeyLNfJXhBtJ5A"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FyaF4F0gEeyLNfJXhBtJ5A" name="Message28ReceiveEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_FyV0cF0gEeyLNfJXhBtJ5A"/>
-        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_9Jvm8F0fEeyLNfJXhBtJ5A" name="ActionExecutionSpecification28" covered="_2DYTIF0dEeyLNfJXhBtJ5A" finish="_igIOkF0gEeyLNfJXhBtJ5A" start="_FyaF4F0gEeyLNfJXhBtJ5A"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JtfbYF0gEeyLNfJXhBtJ5A" name="Message29SendEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_Jte0UF0gEeyLNfJXhBtJ5A"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RPhpcF0gEeyLNfJXhBtJ5A" name="Message30SendEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_RPgbUF0gEeyLNfJXhBtJ5A"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_igIOkF0gEeyLNfJXhBtJ5A" name="Message32ReceiveEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JtgCcF0gEeyLNfJXhBtJ5A" name="Message29ReceiveEvent" covered="_JY_c8F0eEeyLNfJXhBtJ5A" message="_Jte0UF0gEeyLNfJXhBtJ5A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RPi3kF0gEeyLNfJXhBtJ5A" name="Message30ReceiveEvent" covered="_9B16EF0dEeyLNfJXhBtJ5A" message="_RPgbUF0gEeyLNfJXhBtJ5A"/>
         <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_BgsZEF0gEeyLNfJXhBtJ5A" name="ActionExecutionSpecification29" covered="_9B16EF0dEeyLNfJXhBtJ5A" finish="_igHngF0gEeyLNfJXhBtJ5A" start="_RPi3kF0gEeyLNfJXhBtJ5A"/>
@@ -953,6 +947,12 @@
         </guard>
       </operand>
     </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FyZe0F0gEeyLNfJXhBtJ5A" name="Message28SendEvent" covered="_ynrBQF0dEeyLNfJXhBtJ5A" message="_FyV0cF0gEeyLNfJXhBtJ5A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FyaF4F0gEeyLNfJXhBtJ5A" name="Message28ReceiveEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_FyV0cF0gEeyLNfJXhBtJ5A"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_9Jvm8F0fEeyLNfJXhBtJ5A" name="ActionExecutionSpecification28" covered="_2DYTIF0dEeyLNfJXhBtJ5A" finish="_igIOkF0gEeyLNfJXhBtJ5A" start="_FyaF4F0gEeyLNfJXhBtJ5A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JtfbYF0gEeyLNfJXhBtJ5A" name="Message29SendEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_Jte0UF0gEeyLNfJXhBtJ5A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_RPhpcF0gEeyLNfJXhBtJ5A" name="Message30SendEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_RPgbUF0gEeyLNfJXhBtJ5A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_igIOkF0gEeyLNfJXhBtJ5A" name="Message32ReceiveEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6LepkF0gEeyLNfJXhBtJ5A" name="Message34SendEvent" covered="_ynrBQF0dEeyLNfJXhBtJ5A" message="_6Lc0YF0gEeyLNfJXhBtJ5A"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FBGvUF0hEeyLNfJXhBtJ5A" name="Message40ReceiveEvent" covered="_2DYTIF0dEeyLNfJXhBtJ5A" message="_FBETEF0hEeyLNfJXhBtJ5A"/>
     <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_BXPssF0hEeyLNfJXhBtJ5A" name="ActionExecutionSpecification37" covered="_2DYTIF0dEeyLNfJXhBtJ5A" finish="_bu4u0F0hEeyLNfJXhBtJ5A" start="_FBGvUF0hEeyLNfJXhBtJ5A"/>
@@ -2178,6 +2178,139 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_pVXWAl6qEeyiNbvJ_OlIdw" name="accounts management system" type="_7uF9oF6mEeyiNbvJ_OlIdw" association="_pVWH4F6qEeyiNbvJ_OlIdw"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_pVX9EF6qEeyiNbvJ_OlIdw" name="make delete query" type="_gpa5kF6qEeyiNbvJ_OlIdw" association="_pVWH4F6qEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_KvwCIF6rEeyiNbvJ_OlIdw" name="Delete Leaderboard entry">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ke7goF6sEeyiNbvJ_OlIdw" name="Go to leaderboard management">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_BbXMAF6zEeyiNbvJ_OlIdw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pO7r8F6sEeyiNbvJ_OlIdw" name="Select delete">
+      <extend xmi:type="uml:Extend" xmi:id="_BbV94F6zEeyiNbvJ_OlIdw" extendedCase="_ke7goF6sEeyiNbvJ_OlIdw" extensionLocation="_BbXMAF6zEeyiNbvJ_OlIdw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_DR_WcF6zEeyiNbvJ_OlIdw" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_FTkzsF6zEeyiNbvJ_OlIdw" addition="_YqxuYF6yEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YqxuYF6yEeyiNbvJ_OlIdw" name="Create table">
+      <include xmi:type="uml:Include" xmi:id="_JKjFQF6zEeyiNbvJ_OlIdw" addition="_bwJj4F6yEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bwJj4F6yEeyiNbvJ_OlIdw" name="Send leaderboard query">
+      <include xmi:type="uml:Include" xmi:id="_Ke9TcF6zEeyiNbvJ_OlIdw" addition="_j8i9kF6yEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_j8i9kF6yEeyiNbvJ_OlIdw" name="return leaderboard info">
+      <include xmi:type="uml:Include" xmi:id="_LFfvAF6zEeyiNbvJ_OlIdw" addition="_l9WXsF6yEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_l9WXsF6yEeyiNbvJ_OlIdw" name="Fill table"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_q3CDcF6yEeyiNbvJ_OlIdw" name="Apply filter on rows">
+      <extend xmi:type="uml:Extend" xmi:id="_DR-vYF6zEeyiNbvJ_OlIdw" extendedCase="_pO7r8F6sEeyiNbvJ_OlIdw" extensionLocation="_DR_WcF6zEeyiNbvJ_OlIdw"/>
+      <include xmi:type="uml:Include" xmi:id="_MgMLYF6zEeyiNbvJ_OlIdw" addition="_tooBUF6yEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tooBUF6yEeyiNbvJ_OlIdw" name="Modify query with filters">
+      <include xmi:type="uml:Include" xmi:id="_NCyiIF6zEeyiNbvJ_OlIdw" addition="_bwJj4F6yEeyiNbvJ_OlIdw"/>
+      <include xmi:type="uml:Include" xmi:id="_OlN-MF6zEeyiNbvJ_OlIdw" addition="_yQQTwF6yEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yQQTwF6yEeyiNbvJ_OlIdw" name="Empty table"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_RpBtcF6zEeyiNbvJ_OlIdw" name="Select leaderboard entry">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cItYYF6zEeyiNbvJ_OlIdw" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dVf7oF6zEeyiNbvJ_OlIdw" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VDEycF6zEeyiNbvJ_OlIdw" name="Delete entry">
+      <extend xmi:type="uml:Extend" xmi:id="_dVetgF6zEeyiNbvJ_OlIdw" extendedCase="_RpBtcF6zEeyiNbvJ_OlIdw" extensionLocation="_dVf7oF6zEeyiNbvJ_OlIdw"/>
+      <include xmi:type="uml:Include" xmi:id="_gtnuAF6zEeyiNbvJ_OlIdw" addition="_XlXwEF6zEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_XlXwEF6zEeyiNbvJ_OlIdw" name="Confirmation prompt">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_eyEAQF6zEeyiNbvJ_OlIdw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fRNaYF6zEeyiNbvJ_OlIdw" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZeoXwF6zEeyiNbvJ_OlIdw" name="Press yes">
+      <extend xmi:type="uml:Extend" xmi:id="_fRMzUF6zEeyiNbvJ_OlIdw" extendedCase="_XlXwEF6zEeyiNbvJ_OlIdw" extensionLocation="_fRNaYF6zEeyiNbvJ_OlIdw"/>
+      <include xmi:type="uml:Include" xmi:id="_qaATwF6zEeyiNbvJ_OlIdw" addition="_kbpe8F6zEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_a3g2QF6zEeyiNbvJ_OlIdw" name="Press back">
+      <extend xmi:type="uml:Extend" xmi:id="_cIsxUF6zEeyiNbvJ_OlIdw" extendedCase="_RpBtcF6zEeyiNbvJ_OlIdw" extensionLocation="_cItYYF6zEeyiNbvJ_OlIdw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_eyDZMF6zEeyiNbvJ_OlIdw" extendedCase="_XlXwEF6zEeyiNbvJ_OlIdw" extensionLocation="_eyEAQF6zEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kbpe8F6zEeyiNbvJ_OlIdw" name="Send delete query">
+      <include xmi:type="uml:Include" xmi:id="_rEjsoF6zEeyiNbvJ_OlIdw" addition="_mSazUF6zEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mSazUF6zEeyiNbvJ_OlIdw" name="Delete tuple"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_NZ_a0F6rEeyiNbvJ_OlIdw" name="Staff/Employee"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_PGv3kF6rEeyiNbvJ_OlIdw" name="Leaderboard management system"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_RUbQEF6rEeyiNbvJ_OlIdw" name="Database"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nCozgF6sEeyiNbvJ_OlIdw" name="Clicks on leaderboard management" memberEnd="_nCqBoV6sEeyiNbvJ_OlIdw _nCqBol6sEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nCpakF6sEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nCqBoF6sEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nCqBoV6sEeyiNbvJ_OlIdw" name="go to leaderboard management" type="_ke7goF6sEeyiNbvJ_OlIdw" association="_nCozgF6sEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nCqBol6sEeyiNbvJ_OlIdw" name="staff/employee" type="_NZ_a0F6rEeyiNbvJ_OlIdw" association="_nCozgF6sEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qbUmkF6sEeyiNbvJ_OlIdw" name="goes to delete section" memberEnd="_qbVNol6sEeyiNbvJ_OlIdw _qbVNo16sEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qbVNoF6sEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qbVNoV6sEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qbVNol6sEeyiNbvJ_OlIdw" name="select delete" type="_pO7r8F6sEeyiNbvJ_OlIdw" association="_qbUmkF6sEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qbVNo16sEeyiNbvJ_OlIdw" name="staff/employee" type="_NZ_a0F6rEeyiNbvJ_OlIdw" association="_qbUmkF6sEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2U3YsF6yEeyiNbvJ_OlIdw" name="System creates table" memberEnd="_2U508l6yEeyiNbvJ_OlIdw _2U6cAF6yEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2U508F6yEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2U508V6yEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2U508l6yEeyiNbvJ_OlIdw" name="leaderboard management system" type="_PGv3kF6rEeyiNbvJ_OlIdw" association="_2U3YsF6yEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2U6cAF6yEeyiNbvJ_OlIdw" name="create table" type="_YqxuYF6yEeyiNbvJ_OlIdw" association="_2U3YsF6yEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4JJZwF6yEeyiNbvJ_OlIdw" name="System sends query" memberEnd="_4JKA0l6yEeyiNbvJ_OlIdw _4JKn4F6yEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4JKA0F6yEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4JKA0V6yEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4JKA0l6yEeyiNbvJ_OlIdw" name="leaderboard management system" type="_PGv3kF6rEeyiNbvJ_OlIdw" association="_4JJZwF6yEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4JKn4F6yEeyiNbvJ_OlIdw" name="send leaderboard query" type="_bwJj4F6yEeyiNbvJ_OlIdw" association="_4JJZwF6yEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_57COIF6yEeyiNbvJ_OlIdw" name="System fills table" memberEnd="_57DcQl6yEeyiNbvJ_OlIdw _57DcQ16yEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_57DcQF6yEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_57DcQV6yEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_57DcQl6yEeyiNbvJ_OlIdw" name="leaderboard management system" type="_PGv3kF6rEeyiNbvJ_OlIdw" association="_57COIF6yEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_57DcQ16yEeyiNbvJ_OlIdw" name="fill table" type="_l9WXsF6yEeyiNbvJ_OlIdw" association="_57COIF6yEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7uPRIF6yEeyiNbvJ_OlIdw" name="DB returns tuples" memberEnd="_7uP4Ml6yEeyiNbvJ_OlIdw _7uQfQF6yEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7uP4MF6yEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7uP4MV6yEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7uP4Ml6yEeyiNbvJ_OlIdw" name="return leaderboard info" type="_j8i9kF6yEeyiNbvJ_OlIdw" association="_7uPRIF6yEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7uQfQF6yEeyiNbvJ_OlIdw" name="database" type="_RUbQEF6rEeyiNbvJ_OlIdw" association="_7uPRIF6yEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-cqmQF6yEeyiNbvJ_OlIdw" name="searches with filters" memberEnd="_-csbcF6yEeyiNbvJ_OlIdw _-csbcV6yEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-cr0YF6yEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-cr0YV6yEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-csbcF6yEeyiNbvJ_OlIdw" name="staff/employee" type="_NZ_a0F6rEeyiNbvJ_OlIdw" association="_-cqmQF6yEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-csbcV6yEeyiNbvJ_OlIdw" name="apply filter on rows" type="_q3CDcF6yEeyiNbvJ_OlIdw" association="_-cqmQF6yEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iHVS8F6zEeyiNbvJ_OlIdw" name="system confirms" memberEnd="_iHWhEV6zEeyiNbvJ_OlIdw _iHWhEl6zEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iHV6AF6zEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iHWhEF6zEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iHWhEV6zEeyiNbvJ_OlIdw" name="leaderboard management system" type="_PGv3kF6rEeyiNbvJ_OlIdw" association="_iHVS8F6zEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iHWhEl6zEeyiNbvJ_OlIdw" name="confirmation prompt" type="_XlXwEF6zEeyiNbvJ_OlIdw" association="_iHVS8F6zEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nrT44F6zEeyiNbvJ_OlIdw" name="DB deletes entry" memberEnd="_nrUf8l6zEeyiNbvJ_OlIdw _nrUf816zEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nrUf8F6zEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nrUf8V6zEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nrUf8l6zEeyiNbvJ_OlIdw" name="database" type="_RUbQEF6rEeyiNbvJ_OlIdw" association="_nrT44F6zEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nrUf816zEeyiNbvJ_OlIdw" name="delete tuple" type="_mSazUF6zEeyiNbvJ_OlIdw" association="_nrT44F6zEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_twOBoF6zEeyiNbvJ_OlIdw" name="system sends delete query" memberEnd="_twOosl6zEeyiNbvJ_OlIdw _twOos16zEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_twOosF6zEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_twOosV6zEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_twOosl6zEeyiNbvJ_OlIdw" name="leaderboard management system" type="_PGv3kF6rEeyiNbvJ_OlIdw" association="_twOBoF6zEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_twOos16zEeyiNbvJ_OlIdw" name="send delete query" type="_kbpe8F6zEeyiNbvJ_OlIdw" association="_twOBoF6zEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3FCb8F6zEeyiNbvJ_OlIdw" name="selects a row" memberEnd="_3FERIF6zEeyiNbvJ_OlIdw _3FERIV6zEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3FDqEF6zEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3FDqEV6zEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3FERIF6zEeyiNbvJ_OlIdw" name="staff/employee" type="_NZ_a0F6rEeyiNbvJ_OlIdw" association="_3FCb8F6zEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3FERIV6zEeyiNbvJ_OlIdw" name="select leaderboard entry" type="_RpBtcF6zEeyiNbvJ_OlIdw" association="_3FCb8F6zEeyiNbvJ_OlIdw"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jUf3F12qEeyERdJWJTMIuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jUpBAF2qEeyERdJWJTMIuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
