@@ -1658,6 +1658,129 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_xIP_YV3tEeyoU-Jelrj2sA" name="data management system" type="_knoCUF3rEeyoU-Jelrj2sA" association="_xIOKMF3tEeyoU-Jelrj2sA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_xIP_Yl3tEeyoU-Jelrj2sA" name="success message" type="_vhKFwF3tEeyoU-Jelrj2sA" association="_xIOKMF3tEeyoU-Jelrj2sA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_t7JPIF56EeyH3IU5D9d37w" name="Delete Game">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Vos3kF59EeyH3IU5D9d37w" name="Select Game Management">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_KCRKgF5-EeyH3IU5D9d37w" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_arcYsF59EeyH3IU5D9d37w" name="Select Delete Game">
+      <extend xmi:type="uml:Extend" xmi:id="_KCOuQF5-EeyH3IU5D9d37w" extendedCase="_Vos3kF59EeyH3IU5D9d37w" extensionLocation="_KCRKgF5-EeyH3IU5D9d37w"/>
+      <include xmi:type="uml:Include" xmi:id="_a_9lQF5_EeyH3IU5D9d37w" addition="_ygzO0F5-EeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ygzO0F5-EeyH3IU5D9d37w" name="Create DataGridView">
+      <include xmi:type="uml:Include" xmi:id="_kKkToF5_EeyH3IU5D9d37w" addition="_DJCzcF5_EeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_DJCzcF5_EeyH3IU5D9d37w" name="Query for game library">
+      <include xmi:type="uml:Include" xmi:id="_lGgXcF5_EeyH3IU5D9d37w" addition="_JRpwcF5_EeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_JRpwcF5_EeyH3IU5D9d37w" name="Return all game tuples">
+      <include xmi:type="uml:Include" xmi:id="_uaYWkF5_EeyH3IU5D9d37w" addition="_oNy4gF5_EeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_oNy4gF5_EeyH3IU5D9d37w" name="Fill Grid"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_TfscUF6AEeyH3IU5D9d37w" name="Select a game row">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__v5wkF6CEeyH3IU5D9d37w" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_AYW3sF6DEeyH3IU5D9d37w" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_lLOp8F6AEeyH3IU5D9d37w" name="Delete selected game">
+      <extend xmi:type="uml:Extend" xmi:id="_AYVCgF6DEeyH3IU5D9d37w" extendedCase="_TfscUF6AEeyH3IU5D9d37w" extensionLocation="_AYW3sF6DEeyH3IU5D9d37w"/>
+      <include xmi:type="uml:Include" xmi:id="_oaDZkF6EEeyH3IU5D9d37w" addition="_r_VToF6DEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nZBXMF6AEeyH3IU5D9d37w" name="Back out">
+      <extend xmi:type="uml:Extend" xmi:id="__v5JgF6CEeyH3IU5D9d37w" extendedCase="_TfscUF6AEeyH3IU5D9d37w" extensionLocation="__v5wkF6CEeyH3IU5D9d37w"/>
+      <extend xmi:type="uml:Extend" xmi:id="_yCukAF6EEeyH3IU5D9d37w" extendedCase="_r_VToF6DEeyH3IU5D9d37w" extensionLocation="_yCvLEF6EEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_r_VToF6DEeyH3IU5D9d37w" name="Confirmation message">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xYcQ4F6EEeyH3IU5D9d37w" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yCvLEF6EEeyH3IU5D9d37w" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vIC7kF6EEeyH3IU5D9d37w" name="Accept">
+      <extend xmi:type="uml:Extend" xmi:id="_xYbp0F6EEeyH3IU5D9d37w" extendedCase="_r_VToF6DEeyH3IU5D9d37w" extensionLocation="_xYcQ4F6EEeyH3IU5D9d37w"/>
+      <include xmi:type="uml:Include" xmi:id="_YRygEF6FEeyH3IU5D9d37w" addition="_N7L4oF6FEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_N7L4oF6FEeyH3IU5D9d37w" name="Delete Query">
+      <include xmi:type="uml:Include" xmi:id="_Zk_NUF6FEeyH3IU5D9d37w" addition="_Rm2SEF6FEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Rm2SEF6FEeyH3IU5D9d37w" name="Delete game tuple"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_AbYasF58EeyH3IU5D9d37w" name="Staff/Employee"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_DZ6oYF58EeyH3IU5D9d37w" name="Game Library Management"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_hwwD8F58EeyH3IU5D9d37w" name="Database"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vQI54F5_EeyH3IU5D9d37w" name="System creates object" memberEnd="_vQNLUF5_EeyH3IU5D9d37w _vQNyYF5_EeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vQL9MF5_EeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vQL9MV5_EeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vQNLUF5_EeyH3IU5D9d37w" name="create datagridview" type="_ygzO0F5-EeyH3IU5D9d37w" association="_vQI54F5_EeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_vQNyYF5_EeyH3IU5D9d37w" name="game library management" type="_DZ6oYF58EeyH3IU5D9d37w" association="_vQI54F5_EeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xnd9oF5_EeyH3IU5D9d37w" name="System sends query" memberEnd="_xnfy0V5_EeyH3IU5D9d37w _xngZ4F5_EeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnfLwF5_EeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xnfy0F5_EeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xnfy0V5_EeyH3IU5D9d37w" name="game library management" type="_DZ6oYF58EeyH3IU5D9d37w" association="_xnd9oF5_EeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xngZ4F5_EeyH3IU5D9d37w" name="query for game library" type="_DJCzcF5_EeyH3IU5D9d37w" association="_xnd9oF5_EeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zSc4wF5_EeyH3IU5D9d37w" name="System fills grid with tuples" memberEnd="_zSet8F5_EeyH3IU5D9d37w _zSet8V5_EeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zSeG4F5_EeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zSeG4V5_EeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zSet8F5_EeyH3IU5D9d37w" name="game library management" type="_DZ6oYF58EeyH3IU5D9d37w" association="_zSc4wF5_EeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zSet8V5_EeyH3IU5D9d37w" name="fill grid" type="_oNy4gF5_EeyH3IU5D9d37w" association="_zSc4wF5_EeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QbVTcF6AEeyH3IU5D9d37w" name="Database runs query" memberEnd="_QbY90V6AEeyH3IU5D9d37w _QbY90l6AEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QbYWwF6AEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QbY90F6AEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QbY90V6AEeyH3IU5D9d37w" name="return all game tuples" type="_JRpwcF5_EeyH3IU5D9d37w" association="_QbVTcF6AEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QbY90l6AEeyH3IU5D9d37w" name="database" type="_hwwD8F58EeyH3IU5D9d37w" association="_QbVTcF6AEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wg9hMF6CEeyH3IU5D9d37w" name="Employee selects game management" memberEnd="_wg_WYV6CEeyH3IU5D9d37w _wg_9cF6CEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wg-vUF6CEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wg_WYF6CEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wg_WYV6CEeyH3IU5D9d37w" name="select game management" type="_Vos3kF59EeyH3IU5D9d37w" association="_wg9hMF6CEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wg_9cF6CEeyH3IU5D9d37w" name="staff/employee" type="_AbYasF58EeyH3IU5D9d37w" association="_wg9hMF6CEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zJrP4F6CEeyH3IU5D9d37w" name="Goes to delete" memberEnd="_zJseAl6CEeyH3IU5D9d37w _zJtFEF6CEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zJseAF6CEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zJseAV6CEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zJseAl6CEeyH3IU5D9d37w" name="select delete game" type="_arcYsF59EeyH3IU5D9d37w" association="_zJrP4F6CEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zJtFEF6CEeyH3IU5D9d37w" name="staff/employee" type="_AbYasF58EeyH3IU5D9d37w" association="_zJrP4F6CEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1HXEkF6CEeyH3IU5D9d37w" name="Makes row selection" memberEnd="_1HYSsF6CEeyH3IU5D9d37w _1HYSsV6CEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1HXroF6CEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1HXroV6CEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1HYSsF6CEeyH3IU5D9d37w" name="staff/employee" type="_AbYasF58EeyH3IU5D9d37w" association="_1HXEkF6CEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1HYSsV6CEeyH3IU5D9d37w" name="select a game row" type="_TfscUF6AEeyH3IU5D9d37w" association="_1HXEkF6CEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w7xYcF6DEeyH3IU5D9d37w" name="system prompts" memberEnd="_w7z0sV6DEeyH3IU5D9d37w _w70bwF6DEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w7zNoF6DEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w7z0sF6DEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w7z0sV6DEeyH3IU5D9d37w" name="game library management" type="_DZ6oYF58EeyH3IU5D9d37w" association="_w7xYcF6DEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w70bwF6DEeyH3IU5D9d37w" name="send delete query" type="_r_VToF6DEeyH3IU5D9d37w" association="_w7xYcF6DEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PpqzsF6FEeyH3IU5D9d37w" name="System sends delete query" memberEnd="_Ppt3AV6FEeyH3IU5D9d37w _PpueEF6FEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PptP8F6FEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ppt3AF6FEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ppt3AV6FEeyH3IU5D9d37w" name="game library management" type="_DZ6oYF58EeyH3IU5D9d37w" association="_PpqzsF6FEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PpueEF6FEeyH3IU5D9d37w" name="delete query" type="_N7L4oF6FEeyH3IU5D9d37w" association="_PpqzsF6FEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UK48IF6FEeyH3IU5D9d37w" memberEnd="_UK6KQF6FEeyH3IU5D9d37w _UK6KQV6FEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UK5jMF6FEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UK5jMV6FEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UK6KQF6FEeyH3IU5D9d37w" name="delete game tuple" type="_Rm2SEF6FEeyH3IU5D9d37w" association="_UK48IF6FEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UK6KQV6FEeyH3IU5D9d37w" name="database" type="_hwwD8F58EeyH3IU5D9d37w" association="_UK48IF6FEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nZdp0F6FEeyH3IU5D9d37w" name="Employee accepts prompt" memberEnd="_nZgGEF6FEeyH3IU5D9d37w _nZgGEV6FEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nZffAF6FEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nZffAV6FEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nZgGEF6FEeyH3IU5D9d37w" name="accept" type="_vIC7kF6EEeyH3IU5D9d37w" association="_nZdp0F6FEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nZgGEV6FEeyH3IU5D9d37w" name="staff/employee" type="_AbYasF58EeyH3IU5D9d37w" association="_nZdp0F6FEeyH3IU5D9d37w"/>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jUf3F12qEeyERdJWJTMIuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jUpBAF2qEeyERdJWJTMIuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
