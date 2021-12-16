@@ -1813,10 +1813,10 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_EuiagF6TEeyH3IU5D9d37w" name="Confirmation prompt">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_05UY0F6TEeyH3IU5D9d37w" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_3IrMUF6TEeyH3IU5D9d37w" name="ExtensionPoint2"/>
-      <include xmi:type="uml:Include" xmi:id="_6AFeUF6TEeyH3IU5D9d37w" addition="_KJVPQF6TEeyH3IU5D9d37w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_HkIHkF6TEeyH3IU5D9d37w" name="Agree">
       <extend xmi:type="uml:Extend" xmi:id="_05TxwF6TEeyH3IU5D9d37w" extendedCase="_EuiagF6TEeyH3IU5D9d37w" extensionLocation="_05UY0F6TEeyH3IU5D9d37w"/>
+      <include xmi:type="uml:Include" xmi:id="_SjVmIF6eEeyH3IU5D9d37w" addition="_KJVPQF6TEeyH3IU5D9d37w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_KJVPQF6TEeyH3IU5D9d37w" name="Send Deletion query">
       <include xmi:type="uml:Include" xmi:id="_6jlM8F6TEeyH3IU5D9d37w" addition="_MeSUcF6TEeyH3IU5D9d37w"/>
@@ -1902,6 +1902,282 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ohrGsl6TEeyH3IU5D9d37w" name="delete seat tuple" type="_MeSUcF6TEeyH3IU5D9d37w" association="_ohp4kF6TEeyH3IU5D9d37w"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ohrtwF6TEeyH3IU5D9d37w" name="database" type="_trgdYF6KEeyH3IU5D9d37w" association="_ohp4kF6TEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_hSN8wF6bEeyH3IU5D9d37w" name="Delete Events">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YC20wF6cEeyH3IU5D9d37w" name="Go to Events management">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_AynWgF6eEeyH3IU5D9d37w" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZiVDcF6cEeyH3IU5D9d37w" name="Delete events">
+      <extend xmi:type="uml:Extend" xmi:id="_AymvcF6eEeyH3IU5D9d37w" extendedCase="_YC20wF6cEeyH3IU5D9d37w" extensionLocation="_AynWgF6eEeyH3IU5D9d37w"/>
+      <include xmi:type="uml:Include" xmi:id="_Bu-4IF6eEeyH3IU5D9d37w" addition="_hZwSsF6cEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_aSPdcF6cEeyH3IU5D9d37w" name="Select row from table">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_MrXGIF6eEeyH3IU5D9d37w" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_NLzgwF6eEeyH3IU5D9d37w" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_a3pQkF6cEeyH3IU5D9d37w" name="Go Back">
+      <extend xmi:type="uml:Extend" xmi:id="_NLySoF6eEeyH3IU5D9d37w" extendedCase="_aSPdcF6cEeyH3IU5D9d37w" extensionLocation="_NLzgwF6eEeyH3IU5D9d37w"/>
+      <extend xmi:type="uml:Extend" xmi:id="_NtIFIF6eEeyH3IU5D9d37w" extendedCase="_j9Mf0F6cEeyH3IU5D9d37w" extensionLocation="_NtIsMF6eEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_dS0SgF6cEeyH3IU5D9d37w" name="Delete selected row">
+      <extend xmi:type="uml:Extend" xmi:id="_MrV4AF6eEeyH3IU5D9d37w" extendedCase="_aSPdcF6cEeyH3IU5D9d37w" extensionLocation="_MrXGIF6eEeyH3IU5D9d37w"/>
+      <include xmi:type="uml:Include" xmi:id="_PE8zsF6eEeyH3IU5D9d37w" addition="_j9Mf0F6cEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_e46GkF6cEeyH3IU5D9d37w" name="Press Yes">
+      <extend xmi:type="uml:Extend" xmi:id="_OcGrAF6eEeyH3IU5D9d37w" extendedCase="_j9Mf0F6cEeyH3IU5D9d37w" extensionLocation="_OcH5IF6eEeyH3IU5D9d37w"/>
+      <include xmi:type="uml:Include" xmi:id="_QoylAF6eEeyH3IU5D9d37w" addition="_oE4t8F6cEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_hZwSsF6cEeyH3IU5D9d37w" name="Create table">
+      <include xmi:type="uml:Include" xmi:id="_Ce4rEF6eEeyH3IU5D9d37w" addition="_iarkMF6cEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iarkMF6cEeyH3IU5D9d37w" name="Query Events table">
+      <include xmi:type="uml:Include" xmi:id="_DavPUF6eEeyH3IU5D9d37w" addition="_tBUywF6cEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_j9Mf0F6cEeyH3IU5D9d37w" name="Ask for confirmation">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_NtIsMF6eEeyH3IU5D9d37w" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_OcH5IF6eEeyH3IU5D9d37w" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_oE4t8F6cEeyH3IU5D9d37w" name="Query to delete event">
+      <include xmi:type="uml:Include" xmi:id="_UxhU8F6eEeyH3IU5D9d37w" addition="_vb_eYF6cEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_oxCpUF6cEeyH3IU5D9d37w" name="Fill table"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tBUywF6cEeyH3IU5D9d37w" name="Return all events info">
+      <include xmi:type="uml:Include" xmi:id="_HBQDAF6eEeyH3IU5D9d37w" addition="_oxCpUF6cEeyH3IU5D9d37w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_vb_eYF6cEeyH3IU5D9d37w" name="Delete specified event"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_RMbIcF6cEeyH3IU5D9d37w" name="Staff/Employee"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_S4uSMF6cEeyH3IU5D9d37w" name="Event Management System"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_U9SK8F6cEeyH3IU5D9d37w" name="Database"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wssRQF6cEeyH3IU5D9d37w" name="Staff access events management" memberEnd="_wstfYF6cEeyH3IU5D9d37w _wstfYV6cEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wss4UF6cEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wss4UV6cEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wstfYF6cEeyH3IU5D9d37w" name="usecase1" type="_YC20wF6cEeyH3IU5D9d37w" association="_wssRQF6cEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wstfYV6cEeyH3IU5D9d37w" name="staff/employee" type="_RMbIcF6cEeyH3IU5D9d37w" association="_wssRQF6cEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ytGCwF6cEeyH3IU5D9d37w" name="Selects delete option" memberEnd="_ytIfAF6cEeyH3IU5D9d37w _ytIfAV6cEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ytH38F6cEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ytH38V6cEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ytIfAF6cEeyH3IU5D9d37w" name="staff/employee" type="_RMbIcF6cEeyH3IU5D9d37w" association="_ytGCwF6cEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ytIfAV6cEeyH3IU5D9d37w" name="usecase2" type="_ZiVDcF6cEeyH3IU5D9d37w" association="_ytGCwF6cEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zYtyoF6cEeyH3IU5D9d37w" name="staff selects a row from table" memberEnd="_zYvn0F6cEeyH3IU5D9d37w _zYvn0V6cEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zYvAwF6cEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zYvAwV6cEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zYvn0F6cEeyH3IU5D9d37w" type="_RMbIcF6cEeyH3IU5D9d37w" association="_zYtyoF6cEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zYvn0V6cEeyH3IU5D9d37w" name="usecase3" type="_aSPdcF6cEeyH3IU5D9d37w" association="_zYtyoF6cEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1n94cF6cEeyH3IU5D9d37w" name="staff clicks on delete button" memberEnd="_1n-fgl6cEeyH3IU5D9d37w _1n_GkF6cEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1n-fgF6cEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1n-fgV6cEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1n-fgl6cEeyH3IU5D9d37w" name="staff/employee" type="_RMbIcF6cEeyH3IU5D9d37w" association="_1n94cF6cEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1n_GkF6cEeyH3IU5D9d37w" name="usecase5" type="_dS0SgF6cEeyH3IU5D9d37w" association="_1n94cF6cEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6mckoF6cEeyH3IU5D9d37w" name="DB returns tuples" memberEnd="_6mdywV6cEeyH3IU5D9d37w _6mdywl6cEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6mdLsF6cEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6mdywF6cEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6mdywV6cEeyH3IU5D9d37w" name="usecase12" type="_tBUywF6cEeyH3IU5D9d37w" association="_6mckoF6cEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6mdywl6cEeyH3IU5D9d37w" name="database" type="_U9SK8F6cEeyH3IU5D9d37w" association="_6mckoF6cEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7MClAF6cEeyH3IU5D9d37w" name="DB deletes tuple" memberEnd="_7MDzIV6cEeyH3IU5D9d37w _7MDzIl6cEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7MDMEF6cEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7MDzIF6cEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7MDzIV6cEeyH3IU5D9d37w" name="usecase13" type="_vb_eYF6cEeyH3IU5D9d37w" association="_7MClAF6cEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7MDzIl6cEeyH3IU5D9d37w" name="database" type="_U9SK8F6cEeyH3IU5D9d37w" association="_7MClAF6cEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9_aEgF6cEeyH3IU5D9d37w" name="system creates a table view" memberEnd="_9_bSoV6cEeyH3IU5D9d37w _9_bSol6cEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9_arkF6cEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9_bSoF6cEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9_bSoV6cEeyH3IU5D9d37w" name="usecase7" type="_hZwSsF6cEeyH3IU5D9d37w" association="_9_aEgF6cEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9_bSol6cEeyH3IU5D9d37w" name="event management system" type="_S4uSMF6cEeyH3IU5D9d37w" association="_9_aEgF6cEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-wFTgF6cEeyH3IU5D9d37w" name="System queries db for rows" memberEnd="_-wGhol6cEeyH3IU5D9d37w _-wHIsF6cEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-wGhoF6cEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-wGhoV6cEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-wGhol6cEeyH3IU5D9d37w" name="usecase8" type="_iarkMF6cEeyH3IU5D9d37w" association="_-wFTgF6cEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-wHIsF6cEeyH3IU5D9d37w" name="event management system" type="_S4uSMF6cEeyH3IU5D9d37w" association="_-wFTgF6cEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__2WYAF6cEeyH3IU5D9d37w" name="System asks prompt" memberEnd="__2XmIl6cEeyH3IU5D9d37w __2YNMF6cEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__2XmIF6cEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__2XmIV6cEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__2XmIl6cEeyH3IU5D9d37w" name="event management system" type="_S4uSMF6cEeyH3IU5D9d37w" association="__2WYAF6cEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__2YNMF6cEeyH3IU5D9d37w" name="usecase9" type="_j9Mf0F6cEeyH3IU5D9d37w" association="__2WYAF6cEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Bwr9wF6dEeyH3IU5D9d37w" name="System fills view" memberEnd="_Bwty8F6dEeyH3IU5D9d37w _Bwty8V6dEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BwtL4F6dEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BwtL4V6dEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Bwty8F6dEeyH3IU5D9d37w" name="event management system" type="_S4uSMF6cEeyH3IU5D9d37w" association="_Bwr9wF6dEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Bwty8V6dEeyH3IU5D9d37w" name="usecase11" type="_oxCpUF6cEeyH3IU5D9d37w" association="_Bwr9wF6dEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CjQDIF6dEeyH3IU5D9d37w" name="System sends delete query" memberEnd="_CjRRQV6dEeyH3IU5D9d37w _CjRRQl6dEeyH3IU5D9d37w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CjQqMF6dEeyH3IU5D9d37w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CjRRQF6dEeyH3IU5D9d37w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CjRRQV6dEeyH3IU5D9d37w" name="event management system" type="_S4uSMF6cEeyH3IU5D9d37w" association="_CjQDIF6dEeyH3IU5D9d37w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CjRRQl6dEeyH3IU5D9d37w" name="usecase10" type="_oE4t8F6cEeyH3IU5D9d37w" association="_CjQDIF6dEeyH3IU5D9d37w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_2QyAYF6mEeyiNbvJ_OlIdw" name="Delete Account">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_A2UbsF6nEeyiNbvJ_OlIdw" name="Go to Accounts Management">
+      <include xmi:type="uml:Include" xmi:id="_uVQCUF6oEeyiNbvJ_OlIdw" addition="__2-pIF6nEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__2-pIF6nEeyiNbvJ_OlIdw" name="Delete section">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_vZyogF6oEeyiNbvJ_OlIdw" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_SWSAkF6pEeyiNbvJ_OlIdw" addition="_eP5vYF6oEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Fjp4EF6oEeyiNbvJ_OlIdw" name="Search username">
+      <extend xmi:type="uml:Extend" xmi:id="_vZyBcF6oEeyiNbvJ_OlIdw" extendedCase="__2-pIF6nEeyiNbvJ_OlIdw" extensionLocation="_vZyogF6oEeyiNbvJ_OlIdw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_HTBugF6pEeyiNbvJ_OlIdw" extendedCase="_KKrGgF6oEeyiNbvJ_OlIdw" extensionLocation="_HTCVkF6pEeyiNbvJ_OlIdw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_thY8cF6oEeyiNbvJ_OlIdw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_yYSZ8F6oEeyiNbvJ_OlIdw" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_GleE8F6pEeyiNbvJ_OlIdw" name="ExtensionPoint4"/>
+      <include xmi:type="uml:Include" xmi:id="_YL9agF6pEeyiNbvJ_OlIdw" addition="_j2pVcF6oEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_H1pv4F6oEeyiNbvJ_OlIdw" name="Select account">
+      <extend xmi:type="uml:Extend" xmi:id="_thXuUF6oEeyiNbvJ_OlIdw" extendedCase="_Fjp4EF6oEeyiNbvJ_OlIdw" extensionLocation="_thY8cF6oEeyiNbvJ_OlIdw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_5vkJgF6oEeyiNbvJ_OlIdw" extendedCase="_KKrGgF6oEeyiNbvJ_OlIdw" extensionLocation="_5vkwkF6oEeyiNbvJ_OlIdw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qblCEF6oEeyiNbvJ_OlIdw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_sSMlcV6oEeyiNbvJ_OlIdw" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KKrGgF6oEeyiNbvJ_OlIdw" name="Switch to customer Accounts">
+      <extend xmi:type="uml:Extend" xmi:id="_sSMlcF6oEeyiNbvJ_OlIdw" extendedCase="_H1pv4F6oEeyiNbvJ_OlIdw" extensionLocation="_sSMlcV6oEeyiNbvJ_OlIdw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_Gldd4F6pEeyiNbvJ_OlIdw" extendedCase="_Fjp4EF6oEeyiNbvJ_OlIdw" extensionLocation="_GleE8F6pEeyiNbvJ_OlIdw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_5vkwkF6oEeyiNbvJ_OlIdw" name="ExtensionPoint3"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_73JhEF6oEeyiNbvJ_OlIdw" name="ExtensionPoint4"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_HTCVkF6pEeyiNbvJ_OlIdw" name="ExtensionPoint5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PHT_oF6oEeyiNbvJ_OlIdw" name="Make query with search term">
+      <include xmi:type="uml:Include" xmi:id="_UY_fMF6pEeyiNbvJ_OlIdw" addition="_RVDCgF6oEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_RVDCgF6oEeyiNbvJ_OlIdw" name="Return searched username">
+      <include xmi:type="uml:Include" xmi:id="_VNF1oF6pEeyiNbvJ_OlIdw" addition="_NsTkwF6pEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_eP5vYF6oEeyiNbvJ_OlIdw" name="Create table"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_j2pVcF6oEeyiNbvJ_OlIdw" name="Empty table">
+      <include xmi:type="uml:Include" xmi:id="_bk33EF6pEeyiNbvJ_OlIdw" addition="_PHT_oF6oEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_nvZIoF6oEeyiNbvJ_OlIdw" name="Delete account">
+      <extend xmi:type="uml:Extend" xmi:id="_qbil0F6oEeyiNbvJ_OlIdw" extendedCase="_H1pv4F6oEeyiNbvJ_OlIdw" extensionLocation="_qblCEF6oEeyiNbvJ_OlIdw"/>
+      <include xmi:type="uml:Include" xmi:id="_ecgykF6pEeyiNbvJ_OlIdw" addition="_KhSaQF6pEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KhSaQF6pEeyiNbvJ_OlIdw" name="Confirm prompt">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_YFES4F6qEeyiNbvJ_OlIdw" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_YtRiYF6qEeyiNbvJ_OlIdw" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_NsTkwF6pEeyiNbvJ_OlIdw" name="fill table"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_RKK9UF6qEeyiNbvJ_OlIdw" name="Yes pressed">
+      <extend xmi:type="uml:Extend" xmi:id="_YFDr0F6qEeyiNbvJ_OlIdw" extendedCase="_KhSaQF6pEeyiNbvJ_OlIdw" extensionLocation="_YFES4F6qEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VCO0AF6qEeyiNbvJ_OlIdw" name="No clicked">
+      <extend xmi:type="uml:Extend" xmi:id="_YtQUQF6qEeyiNbvJ_OlIdw" extendedCase="_KhSaQF6pEeyiNbvJ_OlIdw" extensionLocation="_YtRiYF6qEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_gpa5kF6qEeyiNbvJ_OlIdw" name="Make delete query">
+      <include xmi:type="uml:Include" xmi:id="_oBD1gF6qEeyiNbvJ_OlIdw" addition="_i3qSwF6qEeyiNbvJ_OlIdw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_i3qSwF6qEeyiNbvJ_OlIdw" name="Delete account"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_6DBi8F6mEeyiNbvJ_OlIdw" name="Accounts Manager"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_7uF9oF6mEeyiNbvJ_OlIdw" name="Accounts Management System"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_9hSZkF6mEeyiNbvJ_OlIdw" name="Database"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UedDcF6oEeyiNbvJ_OlIdw" name="Clicks on Accounts management" memberEnd="_Uegt0F6oEeyiNbvJ_OlIdw _Uegt0V6oEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UeffsF6oEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UeffsV6oEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Uegt0F6oEeyiNbvJ_OlIdw" name="go to accounts management" type="_A2UbsF6nEeyiNbvJ_OlIdw" association="_UedDcF6oEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Uegt0V6oEeyiNbvJ_OlIdw" name="accounts manager" type="_6DBi8F6mEeyiNbvJ_OlIdw" association="_UedDcF6oEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XBckoF6oEeyiNbvJ_OlIdw" name="Goes to delete section" memberEnd="_XBfA4l6oEeyiNbvJ_OlIdw _XBfn8F6oEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XBfA4F6oEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XBfA4V6oEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XBfA4l6oEeyiNbvJ_OlIdw" name="accounts manager" type="_6DBi8F6mEeyiNbvJ_OlIdw" association="_XBckoF6oEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XBfn8F6oEeyiNbvJ_OlIdw" name="delete section" type="__2-pIF6nEeyiNbvJ_OlIdw" association="_XBckoF6oEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZIS8YF6oEeyiNbvJ_OlIdw" name="Inputs characters" memberEnd="_ZIUxkV6oEeyiNbvJ_OlIdw _ZIVYoF6oEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZIUKgF6oEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZIUxkF6oEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZIUxkV6oEeyiNbvJ_OlIdw" name="accounts manager" type="_6DBi8F6mEeyiNbvJ_OlIdw" association="_ZIS8YF6oEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZIVYoF6oEeyiNbvJ_OlIdw" name="search username" type="_Fjp4EF6oEeyiNbvJ_OlIdw" association="_ZIS8YF6oEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bL2vkF6oEeyiNbvJ_OlIdw" name="Selects row from table" memberEnd="_bL4kwV6oEeyiNbvJ_OlIdw _bL4kwl6oEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bL39sF6oEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bL4kwF6oEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bL4kwV6oEeyiNbvJ_OlIdw" name="goes to delete section" type="_6DBi8F6mEeyiNbvJ_OlIdw" association="_bL2vkF6oEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bL4kwl6oEeyiNbvJ_OlIdw" name="select account" type="_H1pv4F6oEeyiNbvJ_OlIdw" association="_bL2vkF6oEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ghpIgF6oEeyiNbvJ_OlIdw" name="Clicks customer accounts button" memberEnd="_ghuBAF6oEeyiNbvJ_OlIdw _ghuoEF6oEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ghsy4F6oEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ghtZ8F6oEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ghuBAF6oEeyiNbvJ_OlIdw" name="accounts manager" type="_6DBi8F6mEeyiNbvJ_OlIdw" association="_ghpIgF6oEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ghuoEF6oEeyiNbvJ_OlIdw" name="switch to customer accounts" type="_KKrGgF6oEeyiNbvJ_OlIdw" association="_ghpIgF6oEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gIelIF6pEeyiNbvJ_OlIdw" name="DB returns tuples" memberEnd="_gIfzQl6pEeyiNbvJ_OlIdw _gIgaUF6pEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gIfzQF6pEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gIfzQV6pEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gIfzQl6pEeyiNbvJ_OlIdw" name="database" type="_9hSZkF6mEeyiNbvJ_OlIdw" association="_gIelIF6pEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gIgaUF6pEeyiNbvJ_OlIdw" name="return searched username" type="_RVDCgF6oEeyiNbvJ_OlIdw" association="_gIelIF6pEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_izbIcF6pEeyiNbvJ_OlIdw" name="System creates table" memberEnd="_izcWkl6pEeyiNbvJ_OlIdw _izc9oF6pEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_izcWkF6pEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_izcWkV6pEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_izcWkl6pEeyiNbvJ_OlIdw" name="accounts management system" type="_7uF9oF6mEeyiNbvJ_OlIdw" association="_izbIcF6pEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_izc9oF6pEeyiNbvJ_OlIdw" name="create table" type="_eP5vYF6oEeyiNbvJ_OlIdw" association="_izbIcF6pEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lFyzsF6pEeyiNbvJ_OlIdw" name="System sends query" memberEnd="_lF1P8F6pEeyiNbvJ_OlIdw _lF1P8V6pEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lF0o4F6pEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lF0o4V6pEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lF1P8F6pEeyiNbvJ_OlIdw" name="accounts management system" type="_7uF9oF6mEeyiNbvJ_OlIdw" association="_lFyzsF6pEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lF1P8V6pEeyiNbvJ_OlIdw" name="make query with search term" type="_PHT_oF6oEeyiNbvJ_OlIdw" association="_lFyzsF6pEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nwA-QF6pEeyiNbvJ_OlIdw" name="System empties table" memberEnd="_nwCMYl6pEeyiNbvJ_OlIdw _nwCzcF6pEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nwCMYF6pEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nwCMYV6pEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nwCMYl6pEeyiNbvJ_OlIdw" name="accounts management system" type="_7uF9oF6mEeyiNbvJ_OlIdw" association="_nwA-QF6pEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nwCzcF6pEeyiNbvJ_OlIdw" name="empty table" type="_j2pVcF6oEeyiNbvJ_OlIdw" association="_nwA-QF6pEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_M9WXkF6qEeyiNbvJ_OlIdw" name="System fills table" memberEnd="_M9Yz0V6qEeyiNbvJ_OlIdw _M9Za4F6qEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M9YMwF6qEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M9Yz0F6qEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_M9Yz0V6qEeyiNbvJ_OlIdw" name="accounts management system" type="_7uF9oF6mEeyiNbvJ_OlIdw" association="_M9WXkF6qEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_M9Za4F6qEeyiNbvJ_OlIdw" name="fill table" type="_NsTkwF6pEeyiNbvJ_OlIdw" association="_M9WXkF6qEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cUwmcF6qEeyiNbvJ_OlIdw" name="system asks to confirm" memberEnd="_cUzCsV6qEeyiNbvJ_OlIdw _cUzpwF6qEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cUyboF6qEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cUzCsF6qEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cUzCsV6qEeyiNbvJ_OlIdw" name="accounts management system" type="_7uF9oF6mEeyiNbvJ_OlIdw" association="_cUwmcF6qEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_cUzpwF6qEeyiNbvJ_OlIdw" name="confirm prompt" type="_KhSaQF6pEeyiNbvJ_OlIdw" association="_cUwmcF6qEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lQYdoF6qEeyiNbvJ_OlIdw" name="DB deletes tuple" memberEnd="_lQZrwl6qEeyiNbvJ_OlIdw _lQZrw16qEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lQZrwF6qEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lQZrwV6qEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lQZrwl6qEeyiNbvJ_OlIdw" name="delete account" type="_i3qSwF6qEeyiNbvJ_OlIdw" association="_lQYdoF6qEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lQZrw16qEeyiNbvJ_OlIdw" name="database" type="_9hSZkF6mEeyiNbvJ_OlIdw" association="_lQYdoF6qEeyiNbvJ_OlIdw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pVWH4F6qEeyiNbvJ_OlIdw" memberEnd="_pVXWAl6qEeyiNbvJ_OlIdw _pVX9EF6qEeyiNbvJ_OlIdw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pVXWAF6qEeyiNbvJ_OlIdw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pVXWAV6qEeyiNbvJ_OlIdw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pVXWAl6qEeyiNbvJ_OlIdw" name="accounts management system" type="_7uF9oF6mEeyiNbvJ_OlIdw" association="_pVWH4F6qEeyiNbvJ_OlIdw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pVX9EF6qEeyiNbvJ_OlIdw" name="make delete query" type="_gpa5kF6qEeyiNbvJ_OlIdw" association="_pVWH4F6qEeyiNbvJ_OlIdw"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jUf3F12qEeyERdJWJTMIuQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jUpBAF2qEeyERdJWJTMIuQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
